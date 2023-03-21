@@ -9,3 +9,5 @@ Added in the name and changed some h1 tags to help visuallise it.
 
 Also created a new BB logo cuz I did not like the circular design in webform. I think the new one is much more modern looking. Can send over the svg files if we wanna keep this logo 
 ill send over screenshots so you dont need to download it to see :)
+
+(21/03/2023) Following on from this, can we add a dashboard page once having logged in, which displays again the option to sell, to buy, messages etc...? 
