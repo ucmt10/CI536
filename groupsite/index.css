@@ -101,27 +101,26 @@ div.topbar {
 }
 
 div#loginsection {
-  
+    background-color: rgba(249,55,127, 0.75);
     margin: auto;
     margin-top: 20px;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
-
+    border-radius: 30px;
+    
 
 }
 
 div.logincontainer {
     padding: 20px;
-    background-color: aqua;
-
 }
 
 button#submit {
     display: block;
 }
 
-div#label {
+label {
     display: block;
 
 }
