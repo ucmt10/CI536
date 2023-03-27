@@ -101,8 +101,7 @@ div.topbar {
 }
 
 div#loginsection {
-    width: 20%;
-    height: 224px;
+  
     margin: auto;
     margin-top: 20px;
     display: flex;
