@@ -101,15 +101,23 @@ div.topbar {
 }
 
 div#loginsection {
-    background-color: rgba(249,55,127, 0.75);
+    background-color: rgba(249, 55, 127, 0.75);
     margin: auto;
     margin-top: 20px;
     display: none;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    
 
+
+}
+
+button#leavelogin {
+    display: flex;
+    position: absolute;
+    z-index: 9999;
+    right: 2em;
+    top: 8em;
 }
 
 div.logincontainer {

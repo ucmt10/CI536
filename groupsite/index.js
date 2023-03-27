@@ -5,11 +5,18 @@ window.addEventListener("load", function () {
 	document.getElementById("login").addEventListener("click", function() {
 			 //test evnt listner works with alert
 		//alert("user logged in");
-		
+
 		loginsection.style.display = "flex";
 
 	})
 
+	document.getElementById("leavelogin").addEventListener("click", function() {
+		//test evnt listner works with alert
+   //alert("user logged in");
+   
+   loginsection.style.display = "none";
+
+})
 
 
 
