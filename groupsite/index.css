@@ -100,6 +100,41 @@ div.topbar {
     margin: 0 auto;
 }
 
+div#loginsection {
+    width: 20%;
+    height: 224px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+div.logincontainer {
+    padding: 20px;
+    background-color: aqua;
+
+}
+
+button#submit {
+    display: block;
+}
+
+div#label {
+    display: block;
+
+}
+
+img#login {
+    width: 550px;
+    height: fit-content;
+}
+
+
+
+
 form#form {
     border-radius: 15px;
     padding: 5px 10px;
