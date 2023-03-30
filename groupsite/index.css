@@ -108,7 +108,7 @@ div#loginsection {
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-
+    width: 80%;
 
 }
 
@@ -116,8 +116,8 @@ button#leavelogin {
     display: flex;
     position: absolute;
     z-index: 9999;
-    right: 2em;
-    top: 8em;
+    right: 8em;
+    top: 7em;
 }
 
 div.logincontainer {
@@ -275,8 +275,69 @@ div#section2txtR {
     backdrop-filter: blur(3.5px);
     border-radius: 10px;
 
+}
+
+h1#section3h1 {
+    margin-left: 1em;
+    padding: 0;
+    margin-top: 1em;
+}
+
+div#section3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
 
 }
+
+img#pic {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    margin-right: 20em;
+    /* Add margin to all images except the last one */
+    border-color: white;
+    border-style: solid;
+    border-width: thick;
+    background-color: rgba(249, 55, 127, 0.75);
+}
+
+img#pic:last-of-type {
+    margin-right: 0;
+    /* Remove margin from the last image */
+}
+
+div#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b5,
+#b6 {
+    width: 16%;
+    padding: 10px;
+}
+
+h1#section4h1 {
+    margin-left: 1em;
+    padding: 0;
+    margin-top: 1em;
+}
+
+
+img#pic2 {
+    width: 35%;
+    height: 450px;
+    border-radius: 30px;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+div#section4 {
+    display: flex;
+}
+
 
 /*
 <a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Freepik - Flaticon</a>
