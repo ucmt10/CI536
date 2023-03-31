@@ -301,6 +301,11 @@ img#pic {
     border-style: solid;
     border-width: thick;
     background-color: rgba(249, 55, 127, 0.75);
+    box-shadow: 0 8px 32px 0 rgb(117 1 137);
+    backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 img#pic:last-of-type {
