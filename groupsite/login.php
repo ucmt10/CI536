@@ -4,15 +4,15 @@
     $html = '<p>Enter details for people table</p>';
 
     // check post parameters
-    if(isset($_POST['firstName']) && isset($_POST['lastName']) && isset($_POST['phone'])) {
+    if(isset($_POST['firstName']) && isset($_POST['lastName']) && isset($_POST['email'])) {
 
         //data validation
         $firstname = $_POST['firstName'];
         $lastname = $_POST['lastName'];
-        $phone = $_POST['phone'];
+        $email = $_POST['email'];
 
         //check length
-        if (strlen($firstname) <= 64 && strlen($lastname) <= 64 && strlen($phone) <= 32) {
+        if (strlen($firstname) <= 64 && strlen($lastname) <= 64 && strlen($email) <= 32) {
             //you could do other checks here
 
             //save to database (server host, username, password, database name)
@@ -21,10 +21,10 @@
             //protection against SQL injection
             $firstname = mysqli_real_escape_string($mysqli, $firstname);
             $lastname = mysqli_real_escape_string($mysqli, $lastname);
-            $phone = mysqli_real_escape_string($mysqli, $phone);
+            $email = mysqli_real_escape_string($mysqli, $email);
 
             //build the SQL statement
-            $sql = "INSERT INTO people (firstName, lastName, phone) " . "VALUES ('$firstname', '$lastname', '$phone')";
+            $sql = "INSERT INTO people (firstName, lastName, email) " . "VALUES ('$firstname', '$lastname', '$email')";
 
             //execute SQL statement
             $result = mysqli_query($mysqli, $sql);
@@ -51,8 +51,8 @@
         . '<input type="text" id="firstName "name="firstName" />'
         . '<br><label for="lastName">Lastname: </label>'
         . '<input type="text" id="lastName" name="lastName" />'
-        . '<br><label for="phone">Phone: </label>'
-        . '<input type="tel" id="phone" name="phone" />'
+        . '<br><label for="email">email: </label>'
+        . '<input type="email" id="email" name="email" />'
         . '<input type="submit" value="Save to Database" />'
         . '</form>';
 
