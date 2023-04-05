@@ -16,7 +16,7 @@
             //you could do other checks here
 
             //save to database (server host, username, password, database name)
-            $mysqli = mysqli_connect("localhost", "rk506_user", "Ayowhereyoureclothesat", "rk506_group_site");
+            $mysqli = mysqli_connect("localhost", "rk506_user", "NousSlayons", "rk506_ci527_test");
             
             //protection against SQL injection
             $firstname = mysqli_real_escape_string($mysqli, $firstname);
