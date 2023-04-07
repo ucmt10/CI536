@@ -4,27 +4,27 @@
     $html = '<p>Enter details for people table</p>';
 
     // check post parameters
-    if(isset($_POST['firstName']) && isset($_POST['lastName']) && isset($_POST['email'])) {
+    if(isset($_POST['firstName']) && isset($_POST['lastName']) && isset($_POST['phone'])) {
 
         //data validation
         $firstname = $_POST['firstName'];
         $lastname = $_POST['lastName'];
-        $email = $_POST['email'];
+        $phone = $_POST['phone'];
 
         //check length
-        if (strlen($firstname) <= 64 && strlen($lastname) <= 64 && strlen($email) <= 32) {
+        if (strlen($firstname) <= 64 && strlen($lastname) <= 64 && strlen($phone) <= 32) {
             //you could do other checks here
 
             //save to database (server host, username, password, database name)
-            $mysqli = mysqli_connect("localhost", "rk506_user1", "useruseruser1", "rk506_user1");
+                $mysqli = mysqli_connect("localhost", "rk506_admin", "Riakumar", "rk506_website");
             
             //protection against SQL injection
             $firstname = mysqli_real_escape_string($mysqli, $firstname);
             $lastname = mysqli_real_escape_string($mysqli, $lastname);
-            $email = mysqli_real_escape_string($mysqli, $email);
+            $phone = mysqli_real_escape_string($mysqli, $phone);
 
             //build the SQL statement
-            $sql = "INSERT INTO people (firstName, lastName, email) " . "VALUES ('$firstname', '$lastname', '$email')";
+            $sql = "INSERT INTO people (firstName, lastName, phone) " . "VALUES ('$firstname', '$lastname', '$phone')";
 
             //execute SQL statement
             $result = mysqli_query($mysqli, $sql);
@@ -51,8 +51,8 @@
         . '<input type="text" id="firstName "name="firstName" />'
         . '<br><label for="lastName">Lastname: </label>'
         . '<input type="text" id="lastName" name="lastName" />'
-        . '<br><label for="email">email: </label>'
-        . '<input type="email" id="email" name="email" />'
+        . '<br><label for="text">phone: </label>'
+        . '<input type="tel" id="phone" name="phone" />'
         . '<input type="submit" value="Save to Database" />'
         . '</form>';
 
