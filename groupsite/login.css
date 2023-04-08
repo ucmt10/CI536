@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    background-image: url("./images/maxim-berg-lnvpji4fC3c-unsplash.jpg");
+    background-image: url("./images/bgs/2717063.jpg");
     background-size: cover;
     color: rgb(255, 255, 255);
 
@@ -124,4 +124,17 @@ input{
     border: 1px solid rgba(255, 255, 255, 0.18);
     width: 200px;
     height: 30px;
+}
+
+form{
+
+    position: fixed;
+    margin-top: 10em;
+    display: block;
+    margin-left: 45em;
+}    
+
+input#submit{
+    display: block;
+    margin-top: 10px;
 }
