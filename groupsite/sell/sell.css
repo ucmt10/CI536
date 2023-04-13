@@ -80,6 +80,7 @@ body {
 div.topbar {
     text-align: right;
     overflow: hidden;
+    margin-bottom: 4em;
     background: rgba(255, 255, 255, 0.55);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(12.5px);
@@ -156,9 +157,10 @@ input#query.search {
 }
 
 
-div#section1 {
+div.section1 {
     margin-top: 15%;
     display: block;
+
 }
 
 #title img {
@@ -176,14 +178,17 @@ img#logo {
     margin-left: 5em;
 }
 
-div#textcontainer {
+div#textcontainer_1 {
     /* display: inline-block; */
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     text-align: right;
     font-size: 2em;
-    margin-right: 4em;
-    vertical-align: middle;
+    margin-right: 1.5em;
+    /* vertical-align: middle; */
+    float: center;
+    overflow:inherit;
+    position: relative;
 }
 
 ::placeholder {
@@ -215,16 +220,16 @@ button svg {
     height: 20px;
 }
 
-
+/* 
 div#section2 h2 {
     display: inline-block;
     margin: 7px;
     padding: 5px;
     border-radius: 10px;
 
-}
+} */
 
-div#section2 {
+/*div#section2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -232,51 +237,19 @@ div#section2 {
     margin-top: 10em;
 
 }
+*/
 
-div#sellers,
-div#buyers {
-    width: 48%;
-    text-align: center;
+img#GIF_1 {
+    width: 35%;
     position: relative;
-}
-
-img#nft1,
-img#nft2 {
-    width: 100%;
-    height: 560px;
+    float: left;
+    margin-left: 4em;
     border-radius: 20px;
-}
-
-div#section2txtL {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 24px;
-    text-align: center;
-
-    backdrop-filter: blur(3.5px);
-    border-radius: 10px;
-
-
+    /* margin-top: 2em; */
 }
 
 
-div#section2txtR {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 24px;
-    text-align: center;
 
-    backdrop-filter: blur(3.5px);
-    border-radius: 10px;
-
-
-}
 
 /*
 <a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Freepik - Flaticon</a>
