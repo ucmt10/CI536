@@ -1,6 +1,10 @@
 # CI536
 Integrated Group Project 
 
+
+https://rk506.brighton.domains/intgroup/groupsite/home.html
+
+
 x -Ria:
 figma plans[Diagram - Untitled.pdf](https://github.com/ucmt10/CI536/files/11069981/Diagram.-.Untitled.pdf)
 
