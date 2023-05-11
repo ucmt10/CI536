@@ -10,22 +10,24 @@ body {
 
 
 div#toast{
-background-color: #8a2be2;
+background-color: rgba(119, 25, 140, 0.715);
     background-size: cover;
     color: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 1px;
+    margin-bottom: 100px;
 
 }
 
 
 
 div#crumpet{
-    background-color: #d427ba;
+    background-color: rgba(119, 25, 140, 0.715);
     background-size: cover;
     color: rgb(255, 255, 255);
     border-radius: 20px;
     margin-top: 42px;
+    margin-bottom: 40px;
     padding: 1px;
     }
     
@@ -102,7 +104,7 @@ div#crumpet{
 div.topbar {
     text-align: right;
     overflow: hidden;
-    background: rgba(255, 255, 255, 0.55);
+    background: rgb(255 255 255 / 31%);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(12.5px);
     -webkit-backdrop-filter: blur(12.5px);
@@ -196,7 +198,6 @@ div#title {
 
 img#logo {
     float: left;
-    margin-left: 5em;
 }
 
 div#textcontainer {
@@ -315,10 +316,8 @@ div#section3 {
 }
 
 img#pic {
-    width: 100%;
-    height: 200px;
-    border-radius: 20px;
-    margin-right: 20em;
+    max-width: 100%;
+    height: auto;
     /* Add margin to all images except the last one */
     border-color: white;
     border-style: solid;
@@ -343,7 +342,7 @@ div#b1,
 #b5,
 #b5,
 #b6 {
-    width: 16%;
+    
     padding: 10px;
     text-align: center;
 }
@@ -365,6 +364,126 @@ img#pic2 {
 
 div#section4 {
     display: flex;
+}
+
+img#pic3 {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+footer {
+    background-color: rgb(255 255 255 / 31%);
+    color: #020202;
+    font-size: 14px;
+    padding: 30px;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37)
+    
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex-basis: 25%;
+    margin-bottom: 10px;
+  }
+  
+  .about-us h3, .buy-sell h3, .quick-links h3, .company-name h3 {
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li a {
+    color: #252424;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }
+
+  .sub-footer {
+    background-color: rgb(31 38 135 / 23%);
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .sub-footer p {
+    margin: 0;
+  }
+  
+
+
+
+  /* For screens that are 768px wide or less */
+@media (max-width: 768px) {
+    /* Reduce the font size of the h1 and h2 elements */
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    /* Modify the width of the search input */
+    input[type="search"] {
+        width: 70%;
+    }
+    /* Modify the size of the navigation links */
+    .navigation a {
+        font-size: 14px;
+    }
+    /* Modify the size of the category images */
+    #pic {
+        width: 100%;
+    }
+}
+
+/* For screens that are 992px wide or less */
+@media (max-width: 992px) {
+    /* Modify the layout of the topbar */
+    .topbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .navigation {
+        width: 100%;
+    }
+    .search {
+        width: 100%;
+    }
+}
+
+/* For screens that are 1200px wide or less */
+@media (max-width: 1200px) {
+    /* Modify the layout of the category images */
+    #section3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #b1, #b2, #b3, #b4, #b5, #b6 {
+        width: 33%;
+        
+    }
 }
 
 
