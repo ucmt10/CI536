@@ -374,7 +374,28 @@ img#pic3 {
     padding-right: 10px;
 }
 
-/* section for the items */
+
+/* section for search */
+
+  #search {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+  }
+  
+  .search-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .range-values {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+
+
 /* section for the items */
 div#toast {
     background-color: rgba(119, 25, 140, 0.715);
@@ -397,6 +418,11 @@ div#toast {
     margin-bottom: 20px;
     text-align: center;
     color: rgb(255, 255, 255);
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
   }
   
   .item:nth-child(1),
