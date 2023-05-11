@@ -410,8 +410,8 @@ div#toast {
   }
   
   .item img {
-    width: 80%;
-    height: 80%;
+    width: 60%;
+    height: auto;
     object-fit: cover;
     border-radius: 10px;
   }
