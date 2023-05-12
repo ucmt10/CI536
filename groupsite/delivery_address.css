@@ -498,6 +498,7 @@ input[type="submit"]:hover {
   color: #000000;
   padding: 5px 30px;
   text-align: center;
+  width: fit-content;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -507,5 +508,5 @@ input[type="submit"]:hover {
 }
 
 #formdeliveryaddress button[type="submit"] :hover {
-  background-color: #45a049;
+  background-color: #8787e4;
 }
