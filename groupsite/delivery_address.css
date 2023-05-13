@@ -112,6 +112,36 @@ input#query.search {
   border: none;
 }
 
+/* Style the nav2 */
+.nav2 a {
+  color: #451357;
+  font-size: 25px;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav2 p {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+  
+.nav2 a:first-of-type {
+  margin-right: 10px;
+}
+  
+.nav2 a:not(:last-of-type):after {
+  content: "⇒";
+  color: rgb(85, 7, 78);
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.nav2 a:not(:last-of-type):hover {
+  font-weight: bold;
+  color: #edd3f2;
+}
+
 div#section1 {
   margin-top: 8%;
   display: block;

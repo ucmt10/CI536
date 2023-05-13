@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="normalize.css" rel="stylesheet" />
     <link href="delivery_address.css" rel="stylesheet" />
-    <script src="basket.js"></script>
+    <script src="delivery_address.js"></script>
     <title>Brighton Bazaar</title>
   </head>
   <body>
@@ -47,6 +47,15 @@
             </a>
           </div>
         </div>
+      </div>
+      <div class="nav2">
+        <p>
+           <a href="electronics.html">Electronics</a>
+           <a href="basket.html">Basket</a>
+           <a href="#">Delivery Address</a>
+        </p>
+     </div>
+     
       </header>
       <div id="butter">
         <div id="loginsection">
@@ -91,7 +100,7 @@
           </div>
         </div>
       </div>
-      <form id="formdeliveryaddress">
+      <form id="formdeliveryaddress" action="./payments/pay.html">
         <h2>Delivery Address</h2>
         <label for="name">Full Name</label>
         <input
@@ -132,12 +141,11 @@
           placeholder="Your post code.."
           required
         />
-        <a href="payment.html"
-          ><button type="submit" name="submit-address">
-            Submit Address
-          </button></a
-        >
+        <button type="submit" name="submit-address">
+          Submit Address
+        </button>
       </form>
+      
     </main>
     <footer>
       <div class="footer-container">
