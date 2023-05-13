@@ -7,56 +7,6 @@ body {
   background-size: cover;
 }
 
-div#toast {
-  background-color: #8a2be2;
-  background-size: cover;
-  color: rgb(255, 255, 255);
-  border-radius: 20px;
-  padding: 1px;
-  margin-bottom: 200px;
-}
-
-div#crumpet {
-  background-color: #d427ba;
-  background-size: cover;
-  color: rgb(255, 255, 255);
-  border-radius: 20px;
-  margin-top: 42px;
-  margin-bottom: 40px;
-  padding: 1px;
-}
-
-#sellers a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  /* no underline */
-  background-color: #dab48d;
-  padding: 3px;
-}
-
-#sellers a:hover {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  /* no underline */
-  background-color: #987654;
-  padding: 3px;
-}
-
-#buyers a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  /* no underline */
-  background-color: #dfc683;
-  padding: 3px;
-}
-
-#buyers a:hover {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  /* no underline */
-  background-color: #aa965e;
-  padding: 3px;
-}
 
 /* Style the links inside the navigation bar */
 .topbar a {
@@ -163,7 +113,7 @@ input#query.search {
 }
 
 div#section1 {
-  margin-top: 15%;
+  margin-top: 8%;
   display: block;
   margin-bottom: 5em;
 }
