@@ -1,21 +1,21 @@
 window.addEventListener("load", function () {
-  const cartIcon = document.getElementById("cart");
-  const cartIconBlack = document.getElementById("cart-icon-black");
-  const cartCount = document.getElementById("cart-count");
+  const cartIcon = document.getElementById("shopping-basket");
+  const cartIconBlack = document.getElementById("basket-icon-black");
+  const cartCount = document.getElementById("basket-count");
 
   let numItemsInCart = 0; // initialize the cart count to 0
 
   // function to update the cart count and display the cart icon
   function updateCart(count) {
     if (count > 0) {
-      cartIconBlack.style.display = "inline"; // show the cart icon
+      cartIconBlack.style.display = "inline"; // show the basket icon
     } else {
-      cartIconBlack.style.display = "none"; // hide the cart icon if count is 0
+      cartIconBlack.style.display = "none"; // hide the basket icon if count is 0
     }
-    cartCount.innerText = count; // update the cart count display
+    cartCount.innerText = count; // update the basket count display
   }
 
-  // example usage: increment the cart count and update the display
+  // example usage: increment the basket count and update the display
   numItemsInCart++;
   updateCart(numItemsInCart);
 
