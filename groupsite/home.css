@@ -424,13 +424,58 @@ img#pic2 {
     padding-right: 10px;
 }
 
-div#section4 {
-    display: flex;
+/* Style the article content- item page */
+div#section4 article {
+    margin-left: 20px;
+    max-width: 60%;
 }
 
+div#section4 {
+    display: flex;
+}    
+
+.column-item {
+  flex: 1;
+}
+
+/* Style the headings - item page*/
+div#section4 article h3, div#section4 article h4 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+/* Style the paragraphs - item page */
+div#section4 article p {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }  
+
+/* Style the seller and reviews headings */
+div#section4 article h3:nth-of-type(2), div#section4 article h3:nth-of-type(3) {
+    margin-top: 50px;
+  }
+  
+  /* Style the seller's name */
+  div#section4 article h4:nth-of-type(2) {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the customer's name */
+  div#section4 article h4:nth-of-type(n+4) {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  } 
+
 img#pic3 {
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 60%;
     border-radius: 30px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -515,6 +560,17 @@ footer {
     /* Modify the size of the category images */
     #pic {
         width: 100%;
+    }
+    
+    /* Change the image to one column */
+    div#section4 {
+        flex-direction: column-item;
+    }
+      
+    /* Style the image to be centered */
+    img#pic3 {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
