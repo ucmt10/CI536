@@ -155,6 +155,15 @@ div.topbar {
     margin: 0 auto;
 }
 
+#cart-icon {
+    filter: invert(1); /* to change the icon to black */
+  }
+  
+#cart:focus #cart-icon {
+    filter: invert(0) sepia(1) saturate(5) hue-rotate(150deg); /* to change the icon to red */
+  }
+  
+
 div#loginsection {
     background-color: rgba(249, 55, 127, 0.75);
     margin: auto;
