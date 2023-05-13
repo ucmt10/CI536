@@ -255,80 +255,6 @@ div#section2txtR {
 
 }
 
-h1#section3h1 {
-    margin-left: 1em;
-    padding: 0;
-    margin-top: 1em;
-}
-
-div#section3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 2em;
-
-}
-
-img#pic {
-    max-width: 100%;
-    height: auto;
-    /* Add margin to all images except the last one */
-    border-color: white;
-    border-style: solid;
-    border-width: thick;
-    background-color: rgb(141 89 223);
-        box-shadow: 0 8px 32px 0 rgb(117 1 137);
-    backdrop-filter: blur(12.5px);
-    -webkit-backdrop-filter: blur(12.5px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-}
-
-img#pic:last-of-type {
-    margin-right: 0;
-    /* Remove margin from the last image */
-}
-
-div#b1,
-#b2,
-#b3,
-#b4,
-#b5,
-#b5,
-#b6 {
-    
-    padding: 10px;
-    text-align: center;
-}
-
-h1#section4h1 {
-    margin-left: 1em;
-    padding: 0;
-    margin-top: 1em;
-}
-
-
-img#pic2 {
-    width: 35%;
-    height: 450px;
-    border-radius: 30px;
-    margin-left: 10px;
-    padding-right: 10px;
-}
-
-div#section4 {
-    display: flex;
-}
-
-img#pic3 {
-    width: 100%;
-    height: auto;
-    border-radius: 30px;
-    margin-left: 10px;
-    padding-right: 10px;
-}
-
-
 /* section for search */
 
   #search {
@@ -346,9 +272,6 @@ img#pic3 {
     display: flex;
     justify-content: space-between;
   }
-
-  
-
 
 /* section for the items */
 div#toast {
@@ -406,24 +329,7 @@ div#toast {
     margin: 10px 0;
   }
   
-  @media screen and (max-width: 768px) {
-    #section3 {
-      flex-direction: column;
-    }
-  
-    .item {
-      flex-basis: 100%;
-    }
-  }
-  
-  
-  
-
-
-
-
-
-
+ /* Footer */
 footer {
     background-color: rgb(255 255 255 / 31%);
     color: #020202;
@@ -432,8 +338,7 @@ footer {
     text-align: center;
     margin-top: 100px;
     border-radius: 20px;
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37)
-    
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37)    
   }
   
   .footer-container {
@@ -477,9 +382,6 @@ footer {
     margin: 0;
   }
   
-
-
-
   /* For screens that are 768px wide or less */
 @media (max-width: 768px) {
     /* Reduce the font size of the h1 and h2 elements */
@@ -501,6 +403,12 @@ footer {
     #pic {
         width: 100%;
     }
+    #section3 {
+        flex-direction: column;
+      }
+    .item {
+        flex-basis: 100%;
+      }
 }
 
 /* For screens that are 992px wide or less */
@@ -533,7 +441,3 @@ footer {
     }
 }
 
-
-/*
-<a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Freepik - Flaticon</a>
-/*
