@@ -447,7 +447,7 @@ div#section4 {
 .seller-info {
     margin-top: 20px;
     padding: 20px;
-    background-color: #faf4f766;
+    background-color: #faf4f77d;
     border-radius: 20px;
     width: 80%;
     margin:0 auto;
@@ -457,6 +457,7 @@ div#section4 {
   .seller-info h2 {
     font-size: 24px;
     font-weight: bold;
+
   }
   
   .seller-info h3.seller-name {
