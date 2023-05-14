@@ -438,40 +438,58 @@ div#section4 {
   flex: 1;
 }
 
-/* Style the headings - item page*/
-div#section4 article h3, div#section4 article h4 {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 24px;
-    line-height: 1.5;
-    margin-top: 30px;
-    margin-bottom: 10px;
-  }
+/* About the seller-item page */
 
-/* Style the paragraphs - item page */
-div#section4 article p {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }  
-
-/* Style the seller and reviews headings */
-div#section4 article h3:nth-of-type(2), div#section4 article h3:nth-of-type(3) {
-    margin-top: 50px;
-  }
-  
-  /* Style the seller's name */
-  div#section4 article h4:nth-of-type(2) {
+.seller-info {
     margin-top: 20px;
-    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #f6149f6a;
+    border-radius: 20px;
   }
   
-  /* Style the customer's name */
-  div#section4 article h4:nth-of-type(n+4) {
-    margin-top: 30px;
-    margin-bottom: 10px;
-  } 
+  .seller-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .seller-info h3.seller-name {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  
+  .seller-info p.feedback {
+    font-size: 16px;
+    font-style: italic;
+    margin: 5px 0 10px;
+  }
+  
+  .seller-info h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .seller-info ul.customer-reviews {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .seller-info li {
+    margin-bottom: 20px;
+  }
+  
+  .seller-info h5.customer-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .seller-info p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
 
 img#pic3 {
     width: 50%;
@@ -556,15 +574,6 @@ footer {
     /* Modify the size of the navigation links */
     .navigation a {
         font-size: 14px;
-    }
-    /* Modify the size of the category images */
-    #pic {
-        width: 100%;
-    }
-    
-    /* Change the image to one column */
-    div#section4 {
-        flex-direction: column-item;
     }
       
     /* Style the image to be centered */
