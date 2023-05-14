@@ -447,10 +447,11 @@ div#section4 {
 .seller-info {
     margin-top: 20px;
     padding: 20px;
-    background-color: #faf4f72e;
+    background-color: #faf4f766;
     border-radius: 20px;
     width: 80%;
     margin:0 auto;
+    color: #451357;
   }
   
   .seller-info h2 {
