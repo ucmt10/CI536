@@ -470,6 +470,12 @@ div#section4 {
     font-style: italic;
     margin: 5px 0 10px;
   }
+
+  .seller-info p.feedback img {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+  }
   
   .seller-info h4 {
     font-size: 18px;
