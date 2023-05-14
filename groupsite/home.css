@@ -455,6 +455,14 @@ div#section4 {
   .seller-info h3.seller-name {
     font-size: 20px;
     margin-top: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .seller-info h3.seller-name img {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
   }
   
   .seller-info p.feedback {
@@ -479,6 +487,18 @@ div#section4 {
     margin-bottom: 20px;
   }
   
+  .customer-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .customer-info img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+  }
+  
   .seller-info h5.customer-name {
     font-size: 16px;
     font-weight: bold;
@@ -489,6 +509,13 @@ div#section4 {
     font-size: 14px;
     line-height: 1.5;
   }
+  .seller-info .seller-icon {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 10px;
+  }
+    
+  
   
 
 img#pic3 {
