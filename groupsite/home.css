@@ -588,17 +588,23 @@ img#pic3 {
     margin-bottom: 10px;
   }
 
-  .contact-seller button {
-    background-color: #c0cbf6;
-    color: #000000;
-    padding: 5px 30px;
-    text-align: center;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
+.contact-seller button {
+  background-color: #c0cbf6;
+  color: #000000;
+  padding: 5px 30px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  /* Center the text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
   .contact-seller button:hover {
     background-color: #9d7ae4;
