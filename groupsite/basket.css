@@ -7,7 +7,6 @@ body {
   background-size: cover;
 }
 
-
 /* Style the links inside the navigation bar */
 .topbar a {
   float: right;
@@ -125,11 +124,11 @@ input#query.search {
   display: flex;
   align-items: center;
 }
-  
+
 .nav2 a:first-of-type {
   margin-right: 10px;
 }
-  
+
 .nav2 a:first-of-type::after {
   content: "⇒";
   color: rgb(85, 7, 78);
@@ -252,6 +251,7 @@ tfoot td {
 thead {
   font-weight: bold;
   background-color: rgba(22, 4, 26, 0.784);
+  border-radius: 10px 10px 0 0;
 }
 
 .button-shopping,
