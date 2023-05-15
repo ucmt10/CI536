@@ -7,7 +7,6 @@ body {
   background-size: cover;
 }
 
-
 /* Style the links inside the navigation bar */
 .topbar a {
   float: right;
@@ -125,11 +124,11 @@ input#query.search {
   display: flex;
   align-items: center;
 }
-  
+
 .nav2 a:first-of-type {
   margin-right: 10px;
 }
-  
+
 .nav2 a:not(:last-of-type):after {
   content: "⇒";
   color: rgb(85, 7, 78);
@@ -250,7 +249,7 @@ input[type="submit"]:hover {
   cursor: pointer;
 }
 
-#formdeliveryaddress button[type="submit"] :hover {
+#formdeliveryaddress button[type="submit"]:hover {
   background-color: #8787e4;
 }
 
