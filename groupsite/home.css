@@ -662,7 +662,11 @@ footer {
   }
   
 
-
+  @media screen and (max-width: 600px) {
+    img#pic2 {
+      display: none;
+    }
+  }
 
   /* For screens that are 768px wide or less */
 @media (max-width: 768px) {
