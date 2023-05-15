@@ -181,7 +181,6 @@ button {
   height: 44px;
   background-color: transparent;
   border: none;
-  cursor: pointer;
 }
 
 svg {
@@ -253,27 +252,34 @@ thead {
   background-color: rgba(22, 4, 26, 0.784);
 }
 
+/* Custom styling for the shopping and delivery buttons */
 .button-shopping,
 .button-delivery {
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   margin: 10px;
   padding: 5px 30px;
   border-radius: 10px;
   background-color: #c0cbf6;
-  color: #000000;
   border: none;
-  width: fit-content;
-  cursor: pointer;
-  text-decoration: none;
 }
 
+/* Specific styling for the Delivery button */
 .button-delivery {
   float: right;
 }
 
-.button-shopping,
+/* Updated styling for the buttons with hover effect */
+.button-shopping:hover,
 .button-delivery:hover {
-  background-color: #8787e4;
+  background-color: #9d7ae4;
+  color: #000000;
+}
+
+/* Remove underline from button links */
+.button-shopping a,
+.button-delivery a {
   text-decoration: none;
 }
 
