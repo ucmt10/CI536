@@ -19,6 +19,18 @@ background-color: rgba(119, 25, 140, 0.715);
 
 }
 
+  /* Custom styling for the "Electronics" heading */
+  .electronics-heading a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .electronics-heading a:hover {
+    text-decoration: none;
+    color: #0b010c;
+  }
+
+  
 
 
 div#crumpet{
