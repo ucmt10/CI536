@@ -1,3 +1,64 @@
+<?php
+
+    //initalise html
+    $html = '<p>Enter details for people table</p>';
+
+    // check post parameters
+    if(isset($_POST['firstName']) && isset($_POST['lastName']) && isset($_POST['phone'])) {
+
+        //data validation
+        $firstname = $_POST['firstName'];
+        $lastname = $_POST['lastName'];
+        $phone = $_POST['phone'];
+
+        //check length
+        if (strlen($firstname) <= 64 && strlen($lastname) <= 64 && strlen($phone) <= 32) {
+            //you could do other checks here
+
+            //save to database (server host, username, password, database name)
+                $mysqli = mysqli_connect("localhost", "rk506_bazaaruser", "Bazaaruser", "rk506_bazaar");
+            
+            //protection against SQL injection
+            $firstname = mysqli_real_escape_string($mysqli, $firstname);
+            $lastname = mysqli_real_escape_string($mysqli, $lastname);
+            $phone = mysqli_real_escape_string($mysqli, $phone);
+
+            //build the SQL statement
+            $sql = "INSERT INTO users (firstName, lastName, phone) " . "VALUES ('$firstname', '$lastname', '$phone')";
+
+            //execute SQL statement
+            $result = mysqli_query($mysqli, $sql);
+            if ($result !== false) {
+                //gives you back last generated id - Marcus: "that's quirky"
+                $id = mysqli_insert_id($mysqli);
+                $html = "<p>Success! Insert id = $id. Enter more people if you want.</p>";
+            }
+            $id = mysqli_insert_id($mysqli);
+
+            //get insert id and show it
+        }
+        else {
+            $html = '<p>One or more of the values are too long, try again.</p>';
+        }
+        
+
+        
+        //$html = '<p>Welcome back, ' . $user . '</p>' . '<p><a href="./post.php">Log Out</a></p>';
+    }
+
+    $html .= '<form method="POST" action="" >'
+        . '<label for="Bookname">Bookname: </label>'
+        . '<input type="text" id="Bookname "name="Bookname" />'
+        . '<br><label for="BookAuthor">Book Author: </label>'
+        . '<input type="text" id="BookAuthor" name="BookAuthor" />'
+        . '<br><label for="text">Year: </label>'
+        . '<input type="tel" id="Year" name="Year" />'
+        . '<input type="submit" value="Save to Database" id="savebutton" />'
+        . '</form>';
+
+?>
+
+
 <!doctype html>
 <html lang="en">
 
@@ -27,7 +88,7 @@
                     <a href="../home.html">Home</a>
                     <a href="../buy.html">Buy</a>
                     <a class="active" href="sell.html">Sell</a>
-                    <a href="#login" id="login">Log In</a>
+                    <a href="../login.php" id="login">Log In</a>
                     <form id="form">
                         <input type="search" class="search" id="query" placeholder="Seach images....">
                         <button>
@@ -43,39 +104,7 @@
 
         </header>
 
-        <div id="loginsection">
-            <button id="leavelogin">X</button>
-
-            <div id="loginill">
-                <img id="login" src="../images/13.svg" alt="man on laptop">
-            </div>
-            <div class="logincontainer">
-                <h2> Weclome back! Please Log In</h2>
-                <label for="uname"><b>Username</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
-
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
-
-                <button id="submit" type="submit">Login</button>
-                <label>
-                    <input type="checkbox" checked="checked" name="remember"> Remember me
-                </label>
-            </div>
-
-        </div>
-
-<!--
-        <div id="section1">
-
-            <div id="textcontainer_1">
-                <h1> Weclome! </h1>
-                <h2> Let's post an ad</h2>
-            </div>
-
-        </div>
-    
-    -->
+        
 
         <div id="section1">
             <div id="ani_GIF">
@@ -86,6 +115,11 @@
         <div id="textcontainer_1">
             <h1> Weclome! </h1>
             <h2> Let's post an ad</h2>
+            
+             <?php
+            echo $html;
+        ?>
+            
         </div>
 
     

@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link href="home.css" rel="stylesheet" />
-    <script src="home.js"></script>
+    <link href="basket.css" rel="stylesheet" />
+    <script src="basket.js"></script>
     <title>Brighton Bazaar</title>
 </head>
 
@@ -75,69 +75,108 @@
         </div>
 </div>
 
+
+
+
+
+<div class="shopping-basket">
+  <table>
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <div class="basket-item">
+            <img src="./images/alexandra-gorn-WF0LSThlRmw-unsplash3.jpg" alt="Item 1">
+            <div class="item-details">
+              <h3>Item 1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </td>
+        <td>£12.99</td>
+        <td><input type="number" value="1" min="1" data-price="12.99"></td>
+        <td class="item-subtotal">£12.99</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="basket-item">
+            <img src="./images/davide-boscolo-gz9njd0zYbQ-unsplash1.jpg" alt="Item 2">
+            <div class="item-details">
+              <h3>Item 2</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </td>
+        <td>£21.99</td>
+        <td><input type="number" value="1" min="1" data-price="21.99"></td>
+        <td class="item-subtotal">£21.99</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">Total</td>
+        <td class="basket-total">£0.00</td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <button class="button-shopping"><a href="buy.html">Back to Shopping</a></button>
+          <button class="button-delivery"><a href="delivery_address.html">Delivery Address</a></button>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
 </div>
 
-<div id="crumpet">
-            <h1 id="section4h1">Item name</h1>
+  
 
-            <div id="section4">
-                <img id="pic3"
-                    src="./images/placeholder.jpg">
-        <article>
-
-            <h3>Item name</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Curabitur gravida arcu ac tortor dignissim convallis aenean.</p>
-            <p> Mattis molestie a iaculis at erat pellentesque adipiscing. Amet dictum sit amet justo donec. Sed id semper risus in hendrerit gravida rutrum quisque non. Nibh mauris cursus mattis molestie a iaculis at erat pellentesque.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum fusce ut placerat orci nulla pellentesque dignissim. Vitae sapien pellentesque habitant morbi tristique senectus et netus. </p>
-                
-
-        </article>
-
-            </div>
- </div>
-
-
-
-    </main>
-    <footer>
-        <div class="footer-container">
-          <div class="column about-us">
-            <h3>About Us</h3>
-            <p>Brighton Bazaar is a student marketplace where you can buy and sell a variety of products.</p>
-            <p>Contact us to learn more!</p>
-          </div>
-          <div class="column quick-links">
-            <h3>Quick Links</h3>
-            <ul>
-              <li><a href="home.html">Home</a>
-              <li><a href="buy.html">Buy</a>
-              <li><a href="sell/sell.html">Sell</a>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-          </div>
-          <div class="column company-name">
-            <h3>Brighton Bazaar</h3>
-            <p>1 Main St.</p>
-            <p>BN15PF Brighton</p>
-            <p>(01273) 12345678</p>
-            <p>brightonbazaar@gmail.com</p>
+</main>
+<footer>
+    <div class="footer-container">
+      <div class="column about-us">
+        <h3>About Us</h3>
+        <p>Brighton Bazaar is a student marketplace where you can buy and sell a variety of products.</p>
+        <p>Contact us to learn more!</p>
+      </div>
+      <div class="column quick-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="home.html">Home</a>
+          <li><a href="buy.html">Buy</a>
+          <li><a href="sell/sell.html">Sell</a>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="column company-name">
+        <h3>Brighton Bazaar</h3>
+        <p>1 Main St.</p>
+        <p>BN15PF Brighton</p>
+        <p>(01273) 12345678</p>
+        <p>brightonbazaar@gmail.com</p>
+      </div>
+    </div>
+  
+  
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>&copy; 2023 Brighton Bazaar. All Rights Reserved.</p>
           </div>
         </div>
-      
-      
-        <div class="sub-footer">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <p>&copy; 2023 Brighton Bazaar. All Rights Reserved.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-      
+      </div>
+    </div>
+  </footer>
+  
 
 </body>
 
 
 </html>
+  

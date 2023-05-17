@@ -1,0 +1,4 @@
+[14-May-2023 01:29:56 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/rk506/public_html/intgroup/groupsite/home/home.php on line 1
+[14-May-2023 01:29:56 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/rk506/public_html/intgroup/groupsite/home/home.php on line 1
+[16-May-2023 19:42:18 UTC] PHP Warning:  Undefined variable $css_path in /home/rk506/public_html/intgroup/groupsite/header.php on line 4
+[17-May-2023 03:21:36 UTC] PHP Parse error:  syntax error, unexpected identifier "re", expecting "," or ";" in /home/rk506/public_html/intgroup/groupsite/home.php on line 40

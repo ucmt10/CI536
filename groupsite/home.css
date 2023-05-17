@@ -10,74 +10,25 @@ body {
 
 
 div#toast{
-background-color: rgba(119, 25, 140, 0.715);
+background-color: #8a2be2;
     background-size: cover;
     color: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 1px;
-    margin-top: 180px;
 
 }
 
-  /* Custom styling for the "Electronics" heading */
-  .electronics-heading a {
-    text-decoration: none;
-    color: #ffffff;
-  }
-  
-  .electronics-heading a:hover {
-    text-decoration: none;
-    color: #0b010c;
-  }
-
-  
 
 
 div#crumpet{
-    background-color: rgba(119, 25, 140, 0.715);
+    background-color: #d427ba;
     background-size: cover;
     color: rgb(255, 255, 255);
     border-radius: 20px;
     margin-top: 42px;
-    margin-bottom: 100px;
     padding: 1px;
     }
-
-
     
-    #bottom-right-button {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        margin: 20px;
-        padding: 10px 40px;
-        background-color: #c0cbf6;
-        color: #000000;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-      }
-
-/*button for item page*/
-      #crumpet #section4 article a button {
-        background-color: #c0cbf6;
-        border: none;
-        color: #000000;
-        padding: 5px 30px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        border-radius: 10px;
-        cursor: pointer;
-      }
-
-      #crumpet #section4 article a button:hover {
-        background-color: #9d7ae4;
-      }
-       
-      
 
 #sellers a {
     color: rgb(255, 255, 255);
@@ -151,7 +102,7 @@ div#crumpet{
 div.topbar {
     text-align: right;
     overflow: hidden;
-    background: rgb(255 255 255 / 31%);
+    background: rgba(255, 255, 255, 0.55);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(12.5px);
     -webkit-backdrop-filter: blur(12.5px);
@@ -161,6 +112,7 @@ div.topbar {
     display: flex;
     justify-content: center;
 }
+
 
 .navigation {
     display: flex;
@@ -208,6 +160,9 @@ img#login {
     height: fit-content;
 }
 
+
+
+
 form#form {
     border-radius: 15px;
     padding: 5px 10px;
@@ -222,44 +177,9 @@ input#query.search {
     border: none;
 }
 
-#basket-icon-black {
-    display: none;
-    width: 24px;
-    height: 24px;
-  }
-
-/* Style the nav2 */
-.nav2 a {
-    color: #451357;
-font-size: 25px;
-    text-decoration: none;
-    position: relative;
-}
-
-.nav2 p {
-margin-left: 10px;
-display: flex;
-align-items: center;
-}
-
-.nav2 a:first-of-type {
-margin-right: 10px;
-}
-
-.nav2 a:first-of-type::after {
-content: "⇒";
-color: rgb(85, 7, 78);
-font-weight: bold;
-}
-
-.nav2 a:not(:last-of-type):hover {
-font-weight: bold;
-color: #edd3f2;
-}
-
 
 div#section1 {
-    margin-top: 8%;
+    margin-top: 15%;
     display: block;
     margin-bottom: 5em;
 }
@@ -276,6 +196,7 @@ div#title {
 
 img#logo {
     float: left;
+    margin-left: 5em;
 }
 
 div#textcontainer {
@@ -394,8 +315,10 @@ div#section3 {
 }
 
 img#pic {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    margin-right: 20em;
     /* Add margin to all images except the last one */
     border-color: white;
     border-style: solid;
@@ -420,7 +343,7 @@ div#b1,
 #b5,
 #b5,
 #b6 {
-    
+    width: 16%;
     padding: 10px;
     text-align: center;
 }
@@ -440,293 +363,8 @@ img#pic2 {
     padding-right: 10px;
 }
 
-/* Style the article content- item page */
-div#section4 article {
-    margin-left: 20px;
-    max-width: 60%;
-}
-
 div#section4 {
     display: flex;
-}    
-
-.column-item {
-  flex: 1;
-}
-
-/* About the seller-item page */
-
-.seller-info {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #faf4f77d;
-    border-radius: 20px;
-    width: 80%;
-    margin:0 auto;
-    color: #451357;
-  }
-  
-  .seller-info h2 {
-    font-size: 24px;
-    font-weight: bold;
-
-  }
-  
-  .seller-info h3.seller-name {
-    font-size: 20px;
-    margin-top: 0;
-    display: flex;
-    align-items: center;
-  }
-  
-  .seller-info h3.seller-name img {
-    width: 48px;
-    height: 48px;
-    margin-right: 10px;
-  }
-  
-  .seller-info p.feedback {
-    font-size: 16px;
-    font-style: italic;
-    margin: 5px 0 10px;
-    display: flex;
-    align-items: center;
-  }
-
-  .seller-info p.feedback img {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
-  }
-  
-  .seller-info h4 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 20px;
-  }
-  
-  .seller-info ul.customer-reviews {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .seller-info li {
-    margin-bottom: 20px;
-  }
-  
-  .customer-info {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
-  }
-  
-  .customer-info img {
-    width: 32px;
-    height: 32px;
-    margin-right: 10px;
-  }
-  
-  .seller-info h5.customer-name {
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 0;
-  }
-  
-  .seller-info p {
-    font-size: 14px;
-    line-height: 1.5;
-  }
-  .seller-info .seller-icon {
-    width: 72px;
-    height: 72px;
-    margin-bottom: 10px;
-  }
-    
-img#pic3 {
-    width: 50%;
-    height: 60%;
-    border-radius: 30px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    padding-right: 10px;
-}
-
-/*contact seller */
-
-.contact-seller {
-    margin-top: 100px;
-    padding: 20px;
-    background-color: rgba(119, 25, 140, 0.715);
-    border-radius: 20px;
-  }
-
-  .contact-seller h2 {
-    font-size: 24px;
-    font-weight: bold;
-  }
-
-  .contact-seller form {
-    margin-top: 20px;
-  }
-
-  .contact-seller label {
-    display: block;
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-
-  .contact-seller textarea {
-    display: block;
-    width: 80%;
-    height: 100px;
-    font-size: 16px;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    resize: none;
-    margin-bottom: 10px;
-  }
-
-.contact-seller button {
-  background-color: #c0cbf6;
-  color: #000000;
-  padding: 5px 30px;
-  text-align: center;
-  border: none;
-  border-radius: 10px;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-
-  /* Center the text */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-  .contact-seller button:hover {
-    background-color: #9d7ae4;
-  }
-
-  
-
-/* footer*/
-
-footer {
-    background-color: rgb(255 255 255 / 31%);
-    color: #020202;
-    font-size: 14px;
-    padding: 30px;
-    text-align: center;
-    margin-top: 200px;
-    border-radius: 20px;
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37)
-    
-  }
-  
-  .footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .column {
-    flex-basis: 25%;
-    margin-bottom: 10px;
-  }
-  
-  .about-us h3, .buy-sell h3, .quick-links h3, .company-name h3 {
-    margin-top: 0;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li a {
-    color: #252424;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    text-decoration: underline;
-  }
-
-  .sub-footer {
-    background-color: rgb(31 38 135 / 23%);
-    padding: 10px 0;
-    text-align: center;
-    border-radius: 15px;
-  }
-  
-  .sub-footer p {
-    margin: 0;
-  }
-  
-
-  @media screen and (max-width: 600px) {
-    img#pic2 {
-      display: none;
-    }
-  }
-
-  /* For screens that are 768px wide or less */
-@media (max-width: 768px) {
-    /* Reduce the font size of the h1 and h2 elements */
-    h1 {
-        font-size: 24px;
-    }
-    h2 {
-        font-size: 18px;
-    }
-    /* Modify the width of the search input */
-    input[type="search"] {
-        width: 70%;
-    }
-    /* Modify the size of the navigation links */
-    .navigation a {
-        font-size: 14px;
-    }
-      
-    /* Style the image to be centered */
-    img#pic3 {
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-/* For screens that are 992px wide or less */
-@media (max-width: 992px) {
-    /* Modify the layout of the topbar */
-    .topbar {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .navigation {
-        width: 100%;
-    }
-    .search {
-        width: 100%;
-    }
-}
-
-/* For screens that are 1200px wide or less */
-@media (max-width: 1200px) {
-    /* Modify the layout of the category images */
-    #section3 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    #b1, #b2, #b3, #b4, #b5, #b6 {
-        width: 33%;
-        
-    }
 }
 
 

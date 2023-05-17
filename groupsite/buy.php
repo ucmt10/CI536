@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="home.css" rel="stylesheet" />
     <script src="home.js"></script>
     <title>Brighton Bazaar</title>
@@ -18,10 +19,10 @@
             <div class="topbar">
 
                 <div class="navigation">
-
-                    <a class="active" href="#home">Home</a>
-                    <a href="buy.html">Buy</a>
-                     <a href="sell/sell.html">Sell</a>
+                    
+                    <a href="home.php">Home</a>
+                    <a class="active" href="#buy">Buy</a>
+                    <a href="sell/sell.php">Sell</a>
                     <a href="login.php">Log In</a>
                     <a href="#signup" id="signup">Sign Up</a>
                     <form id="form">
@@ -61,44 +62,75 @@
 
         </div>
 
-
         <div id="section1">
 
             <div id="logo+txt">
                 <img id="logo" src="./images/brighton bazaar.svg" alt="Italian Trulli">
                 <div id="textcontainer">
-                    <h1> Explore the marketplace.</h1>
-                    <h2> Buy. Sell. Enjoy.</h2>
+                    <h1> Choose category</h1>
+                    <h2> Enjoy shopping!!!</h2>
                 </div>
             </div>
 
         </div>
-</div>
 
 </div>
+    <div id="toast">
 
-<div id="crumpet">
-            <h1 id="section4h1">Item name</h1>
 
-            <div id="section4">
-                <img id="pic3"
-                    src="./images/placeholder.jpg">
-        <article>
+        <h1 id="section3h1">Top Categories</h1>
 
-            <h3>Item name</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Curabitur gravida arcu ac tortor dignissim convallis aenean.</p>
-            <p> Mattis molestie a iaculis at erat pellentesque adipiscing. Amet dictum sit amet justo donec. Sed id semper risus in hendrerit gravida rutrum quisque non. Nibh mauris cursus mattis molestie a iaculis at erat pellentesque.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum fusce ut placerat orci nulla pellentesque dignissim. Vitae sapien pellentesque habitant morbi tristique senectus et netus. </p>
-                
+        <div id="section3">
 
-        </article>
+            <div id="b1">
+                <img id="pic" src="./images/davide-boscolo-gz9njd0zYbQ-unsplash3.jpg"
+                    alt="category image">
+                <h2>Electronics</h2>
+            </div>
+
+            <div id="b2">
+                <img id="pic" src="./images/hope-house-press-leather-diary-studio-IOzk8YKDhYg-unsplash3.jpg"
+                    alt="category image">
+                    <h2>Books</h2>
+            </div>
+
+            <div id="b3">
+                <img id="pic" src="./images/artboard-studio-c-KRSHct7Ho-unsplash3.jpg"
+                    alt="category image">
+                    <h2>Stationary</h2>
+
 
             </div>
- </div>
+
+            <div id="b4">
+                <img id="pic" src="./images/alexandra-gorn-WF0LSThlRmw-unsplash3.jpg"
+                    alt="category image">
+                    <h2>Fashion</h2>
 
 
+            </div>
+
+            <div id="b5">
+                <img id="pic" src="./images/erica-steeves-PfQh55R0ZtE-unsplash3.jpg"
+                    alt="category image">
+                    <h2>Sports</h2>
+
+
+            </div>
+
+            <div id="b6">
+                <img id="pic" src="./images/kelli-mcclintock-GopRYASfsOc-unsplash3.jpg"
+                    alt="category image">
+                    <h2>Other</h2>
+
+
+            </div>
+        </div>
+</div>
 
     </main>
+
+
     <footer>
         <div class="footer-container">
           <div class="column about-us">
@@ -110,17 +142,16 @@
             <h3>Quick Links</h3>
             <ul>
               <li><a href="home.html">Home</a>
-              <li><a href="buy.html">Buy</a>
+              <li><a class="active" href="#buy">Buy</a>
               <li><a href="sell/sell.html">Sell</a>
               <li><a href="#">Contact Us</a></li>
             </ul>
           </div>
           <div class="column company-name">
             <h3>Brighton Bazaar</h3>
-            <p>1 Main St.</p>
-            <p>BN15PF Brighton</p>
-            <p>(01273) 12345678</p>
-            <p>brightonbazaar@gmail.com</p>
+            <p>123 Main St.</p>
+            <p>Brighton, MA 02135</p>
+            <p>(617) 555-1234</p>
           </div>
         </div>
       
