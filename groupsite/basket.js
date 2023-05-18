@@ -1,31 +1,31 @@
-// Get all the input elements
 const quantityInputs = document.querySelectorAll('input[type="number"]');
-// Get the basket total element
-const basketTotal = document.querySelector('.basket-total');
+const subtotalElements = document.querySelectorAll(".item-subtotal");
+const totalElement = document.querySelector(".basket-total");
 
-// Function to calculate and update the subtotal and basket-total
-function updateTotals() {
-  let total = 0;
-  // Loop through all the input elements
-  quantityInputs.forEach((input) => {
-    // Get the price from the data attribute
-    const price = input.getAttribute('data-price');
-    // Calculate the subtotal for the item
-    const subtotal = input.value * price;
-    // Update the subtotal element for the item
-    const itemSubtotal = input.parentElement.nextElementSibling;
-    itemSubtotal.textContent = `£${subtotal.toFixed(2)}`;
-    // Add the subtotal to the total
-    total += subtotal;
+function updateSubtotals() {
+  subtotalElements.forEach((subtotalElement, index) => {
+    const quantity = quantityInputs[index].value;
+    const price = quantityInputs[index].dataset.price;
+    const subtotal = quantity * price;
+    subtotalElement.textContent = `£${subtotal.toFixed(2)}`;
   });
-  // Update the basket total element
-  basketTotal.textContent = `£${total.toFixed(2)}`;
 }
 
-// Call the updateTotals function initially
-updateTotals();
+function updateTotal() {
+  let total = 0;
+  subtotalElements.forEach((subtotalElement) => {
+    const subtotal = parseFloat(subtotalElement.textContent.replace("£", ""));
+    total += subtotal;
+  });
+  totalElement.textContent = `£${total.toFixed(2)}`;
+}
 
-// Add event listener to each quantity input element
-quantityInputs.forEach((input) => {
-  input.addEventListener('input', updateTotals);
+quantityInputs.forEach((quantityInput) => {
+  quantityInput.addEventListener("input", () => {
+    updateSubtotals();
+    updateTotal();
+  });
 });
+
+updateSubtotals();
+updateTotal();
