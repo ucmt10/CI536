@@ -458,7 +458,7 @@ img#pic2 {
 /* Style the article content- item page */
 div#section4 article {
     margin-left: 20px;
-    max-width: 60%;
+    margin-right: 20px;
 }
 
 div#section4 {
@@ -717,6 +717,11 @@ footer {
     img#pic3 {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    /*display about the item under the image */
+    div#section4 {
+      flex-direction: column;
     }
 }
 
