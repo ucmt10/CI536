@@ -13,8 +13,7 @@
 
 .container {
   min-height: 100vh;
-  background: url("./images/bgs/maxim-berg-lnvpji4fC3c-unsplash.jpg") no-repeat
-    center center fixed;
+  background: url("./images/bgs/withoutdots.jpg") no-repeat center center fixed;
   background-size: cover;
   display: flex;
   align-items: center;
