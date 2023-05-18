@@ -222,26 +222,6 @@ input#query.search {
     border: none;
 }
 
-#shopping-basket {
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
-}
-
-#basket-icon-black {
-  width: 24px;
-  height: 24px;
-  margin-right: 5px;
-}
-
-#basket-count {
-  font-size: 14px;
-  color: #fff;
-  padding: 2px 6px;
-  border-radius: 50%;
-}
-
-
 /* Style the nav2 */
 .nav2 a {
 font-size: 20px;
@@ -560,7 +540,7 @@ div#section4 {
     
 img#pic3 {
     width: 50%;
-    height: 60%;
+    height: auto;
     border-radius: 30px;
     margin-left: 10px;
     margin-bottom: 10px;
