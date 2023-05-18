@@ -113,8 +113,7 @@ input#query.search {
 
 /* Style the nav2 */
 .nav2 a {
-  color: #451357;
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: none;
   position: relative;
 }
@@ -131,13 +130,11 @@ input#query.search {
 
 .nav2 a:first-of-type::after {
   content: "⇒";
-  color: rgb(85, 7, 78);
   font-weight: bold;
 }
 
 .nav2 a:not(:last-of-type):hover {
   font-weight: bold;
-  color: #edd3f2;
 }
 
 div#section1 {
