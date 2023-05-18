@@ -429,7 +429,7 @@ h1#section4h1 {
 
 img#pic2 {
     width: 35%;
-    height: 450px;
+    height: auto;
     border-radius: 30px;
     margin-left: 10px;
     padding-right: 10px;
