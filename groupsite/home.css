@@ -262,6 +262,7 @@ div#section1 {
     margin-top: 8%;
     display: block;
     margin-bottom: 5em;
+    
 }
 
 #title img {
@@ -276,6 +277,8 @@ div#title {
 
 img#logo {
     float: left;
+    max-width: 100%;
+    height: auto;
 }
 
 div#textcontainer {
