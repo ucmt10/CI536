@@ -2,7 +2,7 @@
 
 body {
   font-family: "Roboto Condensed", sans-serif;
-  color: rgba(255, 255, 255, 0.55);
+  color: rgb(255, 255, 255);
   background-image: url("./images/bgs/withoutdots.jpg");
   background-size: cover;
 }
@@ -42,7 +42,7 @@ body {
 div.topbar {
   text-align: right;
   overflow: hidden;
-  background: rgb(255 255 255 / 31%);
+  background: rgba(255, 255, 255, 0.55);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(12.5px);
   -webkit-backdrop-filter: blur(12.5px);
