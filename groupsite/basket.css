@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(255, 255, 255);
+  background-image: url("./images/bgs/maxim-berg-lnvpji4fC3c-unsplash.jpg");
+  background-size: cover;
+}
+
+/* Style the links inside the navigation bar */
+.topbar a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 10px;
+}
+
+/* Change the color of links on hover */
+.topbar a:hover {
+  color: black;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Add a color to the active/current link */
+.topbar a.active {
+  color: rgb(65, 65, 65);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+div.topbar {
+  text-align: right;
+  overflow: hidden;
+  background: rgb(255 255 255 / 31%);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+div#loginsection {
+  background-color: rgba(249, 55, 127, 0.75);
+  margin: auto;
+  margin-top: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  width: 80%;
+}
+
+button#leavelogin {
+  display: flex;
+  position: absolute;
+  z-index: 9999;
+  right: 8em;
+  top: 7em;
+}
+
+div.logincontainer {
+  padding: 20px;
+}
+
+button#submit {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+img#login {
+  width: 550px;
+  height: fit-content;
+}
+
+form#form {
+  border-radius: 15px;
+  padding: 5px 10px;
+  border: none;
+  font-size: 14px;
+  align-items: center;
+  display: flex;
+}
+
+input#query.search {
+  background-color: transparent;
+  border: none;
+}
+
+/* Style the nav2 */
+.nav2 a {
+  color: #451357;
+  font-size: 25px;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav2 p {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.nav2 a:first-of-type {
+  margin-right: 10px;
+}
+
+.nav2 a:first-of-type::after {
+  content: "⇒";
+  color: rgb(85, 7, 78);
+  font-weight: bold;
+}
+
+.nav2 a:not(:last-of-type):hover {
+  font-weight: bold;
+  color: #edd3f2;
+}
+
+div#section1 {
+  margin-top: 8%;
+  display: block;
+  margin-bottom: 5em;
+}
+
+#title img {
+  margin-right: 10px;
+}
+
+div#title {
+  display: flex;
+  align-items: center;
+}
+
+img#logo {
+  float: left;
+}
+
+div#textcontainer {
+  /* display: inline-block; */
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  font-size: 2em;
+  margin-right: 4em;
+  vertical-align: middle;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  background-color: transparent;
+  border: none;
+}
+
+svg {
+  color: #fff;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}
+
+button svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Shopping basket*/
+.shopping-basket {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px;
+  background-color: rgba(119, 25, 140, 0.715);
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba(126, 41, 145, 0.54);
+}
+
+.basket-item {
+  display: flex;
+  align-items: center;
+}
+
+.basket-item img {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.item-details h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.item-details p {
+  margin: 0;
+  font-size: 0.8em;
+  color: hsl(0, 33%, 97%);
+}
+
+tfoot td {
+  font-weight: bold;
+  background-color: rgba(87, 17, 101, 0.823);
+}
+
+thead {
+  font-weight: bold;
+  background-color: rgba(22, 4, 26, 0.784);
+}
+
+/* Custom styling for the shopping and delivery buttons */
+.button-shopping,
+.button-delivery {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 5px 30px;
+  border-radius: 10px;
+  background-color: #c0cbf6;
+  border: none;
+}
+
+/* Specific styling for the Delivery button */
+.button-delivery {
+  float: right;
+}
+
+/* Updated styling for the buttons with hover effect */
+.button-shopping:hover,
+.button-delivery:hover {
+  background-color: #9d7ae4;
+  color: #000000;
+}
+
+/* Remove underline from button links */
+.button-shopping a,
+.button-delivery a {
+  text-decoration: none;
+}
+
+/* Footer*/
+footer {
+  background-color: rgb(255 255 255 / 31%);
+  color: #020202;
+  font-size: 14px;
+  margin-top: 200px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column {
+  flex-basis: 25%;
+  margin-bottom: 10px;
+}
+
+.about-us h3,
+.buy-sell h3,
+.quick-links h3,
+.company-name h3 {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  color: #252424;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.sub-footer {
+  background-color: rgb(31 38 135 / 23%);
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.sub-footer p {
+  margin: 0;
+}
+
+/* For screens that are 768px wide or less */
+@media (max-width: 768px) {
+  /* Reduce the font size of the h1 and h2 elements */
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  /* Modify the width of the search input */
+  input[type="search"] {
+    width: 70%;
+  }
+  /* Modify the size of the navigation links */
+  .navigation a {
+    font-size: 14px;
+  }
+  /* Modify the size of the category images */
+  #pic {
+    width: 100%;
+  }
+}
+
+/* For screens that are 992px wide or less */
+@media (max-width: 992px) {
+  /* Modify the layout of the topbar */
+  .topbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .navigation {
+    width: 100%;
+  }
+  .search {
+    width: 100%;
+  }
+}

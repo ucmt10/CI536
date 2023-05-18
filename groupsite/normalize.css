@@ -16,13 +16,6 @@ html {
 /* Sections
    ========================================================================== */
 
-/**
- * Remove the margin in all browsers.
- */
-
-body {
-  margin: 0;
-}
 
 /**
  * Render the `main` element consistently in IE.
@@ -221,6 +214,7 @@ button:-moz-focusring,
 [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
+
 
 /**
  * Correct the padding in Firefox.
