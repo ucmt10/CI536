@@ -262,6 +262,7 @@ margin-right: 10px;
 .nav2 a:first-of-type::after {
 content: "⇒";
 font-weight: bold;
+margin-left: 5px;
 }
 
 .nav2 a:not(:last-of-type):hover {
