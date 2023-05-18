@@ -689,6 +689,12 @@ footer {
     img#pic2 {
       display: none;
     }
+    footer {
+      padding: 20px;
+    }
+    .column {
+      flex-basis: 50%;
+    }
   }
 
   /* For screens that are 768px wide or less */

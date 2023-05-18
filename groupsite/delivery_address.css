@@ -309,6 +309,15 @@ li a:hover {
   margin: 0;
 }
 
+@media screen and (max-width: 600px) {
+  footer {
+    padding: 20px;
+  }
+  .column {
+    flex-basis: 50%;
+  }
+}
+
 /* For screens that are 768px wide or less */
 @media (max-width: 768px) {
   /* Reduce the font size of the h1 and h2 elements */
