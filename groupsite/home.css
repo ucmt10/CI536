@@ -222,11 +222,25 @@ input#query.search {
     border: none;
 }
 
+#shopping-basket {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
 #basket-icon-black {
-    display: none;
-    width: 24px;
-    height: 24px;
-  }
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+#basket-count {
+  font-size: 14px;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
 
 /* Style the nav2 */
 .nav2 a {
