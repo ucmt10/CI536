@@ -3,6 +3,7 @@ Integrated Group Project
 
 
 https://rk506.brighton.domains/intgroup/groupsite/home.html
+https://kp739.brighton.domains/groupsite/home.html
 
 
 x -Ria:
