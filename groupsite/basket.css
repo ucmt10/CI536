@@ -2,7 +2,7 @@
 
 body {
   font-family: "Roboto Condensed", sans-serif;
-  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.55);
   background-image: url("./images/bgs/withoutdots.jpg");
   background-size: cover;
 }
@@ -285,7 +285,7 @@ thead {
 
 /* Footer*/
 footer {
-  background-color: rgb(255 255 255 / 31%);
+  background-color: rgba(255, 255, 255, 0.658);
   color: #020202;
   font-size: 14px;
   margin-top: 200px;
