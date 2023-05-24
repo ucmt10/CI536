@@ -17,6 +17,7 @@ body{
 }
 
 .container {
+
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -33,6 +34,25 @@ body{
     max-width: 600px; /* Changed width to max-width */
     padding-top: 160px;
     width: 100%; /* Added width */
+
+  min-height: 100vh;
+  background: url("./images/bgs/withoutdots.jpg") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  padding-bottom: 60px;
+}
+
+.container form {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 600px;
+  padding-top: 160px;
+
 }
 
 .container form .inputBox {
@@ -58,6 +78,8 @@ body{
     display: flex;
     gap: 15px;
     flex-wrap: wrap; /* Added flex-wrap */
+  display: flex;
+  gap: 15px;
 }
 
 .container form .flexbox .inputBox {
@@ -88,6 +110,10 @@ body{
     height: 250px;
     max-width: 400px; /* Changed width to max-width */
     width: 100%; /* Added width */
+  margin-bottom: -150px;
+  position: relative;
+  height: 250px;
+  width: 400px;
 }
 
 .container .card-container .front {
@@ -248,6 +274,7 @@ div.topbar {
 .navbar-brand{
   display: flex;
   align-items: center;
-  margin: 0 auto;
   padding: 14px 16px;
+  margin-top: 30px;
+  height: 30px;
 }
