@@ -12,12 +12,10 @@ Welcome to Brighton Bazaar! This marketplace is designed exclusively for Brighto
 - **Partial Functionality**: While the website is still a work in progress, we have several key components:
   - User registration and login
   - Item listings creation
-  - Basic search and filtering
   - Messaging system for communication between buyers and sellers
   - Advanced search and filtering options
   - User ratings and reviews
-  - Wishlist functionality
-  - Notifications for new listings and updates
+  - Basket feature
 
 ## Getting Started
 
