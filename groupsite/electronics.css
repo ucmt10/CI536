@@ -42,7 +42,7 @@ body {
 div.topbar {
   text-align: right;
   overflow: hidden;
-  background: rgb(255 255 255 / 31%);
+  background: rgba(255, 255, 255, 0.514);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(12.5px);
   -webkit-backdrop-filter: blur(12.5px);
@@ -97,20 +97,6 @@ img#login {
   height: fit-content;
 }
 
-form#form {
-  border-radius: 15px;
-  padding: 5px 10px;
-  border: none;
-  font-size: 14px;
-  align-items: center;
-  display: flex;
-}
-
-input#query.search {
-  background-color: transparent;
-  border: none;
-}
-
 div#section1 {
   margin-top: 8%;
   display: block;
@@ -145,15 +131,6 @@ div#textcontainer {
   opacity: 0.7;
 }
 
-button {
-  all: unset;
-  cursor: pointer;
-  width: 44px;
-  height: 44px;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
 
 svg {
   color: #fff;
@@ -225,12 +202,13 @@ div#section2txtR {
 
 /* section for search */
 #search {
-  background-color: #f0484846;
+  background-color: #e25959b8;
   padding: 40px 0;
   border-radius: 20px;
-  width: 50%;
-  margin-bottom: 30px;
-  position: relative; /* Add position relative */
+  width: 40%;
+  margin-bottom: 100px;
+  margin-top: 150px;
+  position: relative; 
 }
 
 .search-title {
@@ -262,6 +240,7 @@ div#section2txtR {
   justify-content: space-between;
 }
 
+
 .price-cat,
 .sort-cat {
   flex-basis: calc(50% - 30px);
@@ -273,17 +252,21 @@ div#section2txtR {
   margin-bottom: 15px;
 }
 
-.searchcat .btn-search-cat {
-  border-radius: 20px; /* Rounded corners */
-  padding: 10px 20px; /* Adjust padding as needed */
-  background-color: #4caf50; /* Change background color */
-  color: white; /* Change text color */
-  border: none; /* Remove border */
-  position: absolute; /* Position absolute */
-  bottom: -20px; /* Move the button down */
-  right: -20px; /* Move the button to the right */
-  width: 40px; /* Set width to make it square */
-  height: 40px; /* Set height to make it square */
+.btn-search-cat {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #c0cbf6;
+  border: none;
+  color: #000000;
+  padding: 13px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 
@@ -321,16 +304,7 @@ div#section2txtR {
   border-radius: 4px;
 }
 
-.search-button {
-  background-color: #f8c093;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 4px;
-  cursor: pointer;
-}
+
 
 
 

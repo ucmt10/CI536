@@ -21,7 +21,7 @@ body {
 /* Change the color of links on hover */
 .topbar a:hover {
   color: black;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.514);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(12.5px);
   -webkit-backdrop-filter: blur(12.5px);
@@ -95,20 +95,6 @@ label {
 img#login {
   width: 550px;
   height: fit-content;
-}
-
-form#form {
-  border-radius: 15px;
-  padding: 5px 10px;
-  border: none;
-  font-size: 14px;
-  align-items: center;
-  display: flex;
-}
-
-input#query.search {
-  background-color: transparent;
-  border: none;
 }
 
 /* Style the nav2 */

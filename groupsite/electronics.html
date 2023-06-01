@@ -18,16 +18,7 @@
                   <a href="sell/sell.html">Sell</a>
                   <a href="login.php">Log In</a>
                   <a href="#signup" id="signup">Sign Up</a>
-                  <form id="form">
-                     <input type="search" class="search" id="query" placeholder="Seach images....">
-                     <button>
-                        <svg viewBox="0 0 1024 1024">
-                           <path class="path1"
-                              d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z">
-                           </path>
-                        </svg>
-                     </button>
-                  </form>
+
                   <a href="basket.html" id="shopping-basket">
                      <img
                        src="images/shopping_cart_black_24dp.svg"
@@ -96,6 +87,9 @@
                         <option value="acceptable">Acceptable</option>
                       </select>
                     </div>
+                  </div>
+                  <div class="searchcat">
+                    <!-- Moved the Price range section here -->
                     <div class="form-group">
                       <label for="price-range">Price range:</label>
                       <input type="range" id="price-range" name="price-range" min="0" max="1000" class="form-range">
@@ -104,8 +98,7 @@
                         <span class="max-value">£1000+</span>
                       </div>
                     </div>
-                  </div>
-                  <div class="searchcat">
+                    <!-- End of Price range section -->
                     <div class="form-group">
                       <label for="rating">Minimum rating:</label>
                       <input type="number" id="rating" name="rating" class="form-control" min="0" max="5" step="0.1">
@@ -119,14 +112,19 @@
                         <option value="highest-price">Highest price</option>
                       </select>
                     </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="searchcat">
                     <div class="form-group">
-                      <button type="submit" class="btn btn-primary">Search</button>
+                      <button type="submit" class="btn-search-cat">Search</button>
                     </div>
                   </div>
                 </div>
               </form>
             </div>
           </section>
+          
          <div id="toast">
             <h1 id="section3h1">Electronics</h1>
             <div id="section3">
