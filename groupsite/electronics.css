@@ -233,21 +233,111 @@ div#section2txtR {
 
 /* section for search */
 
+/* section for search */
+/* section for search */
+/* section for search */
 #search {
-  background-color: #f8f9fa;
+  background-color: #f8c09346;
   padding: 40px 0;
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .search-title {
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.searchcat,
+.categorycat {
+  flex-basis: calc(50% - 30px);
+  margin: 0 15px;
+}
+
+.searchcat .form-group,
+.categorycat .form-group {
+  margin-bottom: 15px;
 }
 
 .range-values {
   display: flex;
   justify-content: space-between;
 }
+
+.price-cat,
+.sort-cat {
+  flex-basis: calc(50% - 30px);
+  margin: 0 15px;
+}
+
+.price-cat .form-group,
+.sort-cat .form-group {
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .searchcat,
+  .categorycat,
+  .price-cat,
+  .sort-cat {
+    flex-basis: 100%;
+    margin: 0;
+  }
+}
+
+/* Additional styles for the form fields */
+
+.keyword-input,
+.category-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.price-range {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-input {
+  width: 100px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.rating-input,
+.sort-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-button {
+  background-color: #f8c093;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
 
 /* section for the items */
 div#toast {
@@ -403,6 +493,9 @@ li a:hover {
     flex-direction: column;
   }
   .item {
+    flex-basis: 100%;
+  }
+  #search-form .searchcat {
     flex-basis: 100%;
   }
 }

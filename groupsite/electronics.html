@@ -68,63 +68,67 @@
          </div>
          <section id="search">
             <div class="container">
-               <form action="/action_page.php" id="search-form">
-                  <div class="row">
-                     <div class="col-md-6">
-                        <h2 class="search-title">Search for Electronics</h2>
-                        <div class="form-group">
-                           <label for="keywords">Keywords:</label>
-                           <input type="text" id="keywords" name="keywords" class="form-control">
-                        </div>
-                        <div class="form-group">
-                           <label for="category">Category:</label>
-                           <select name="category" id="category" class="form-control">
-                              <option value="">All categories</option>
-                              <option value="mobile-phones">Mobile phones</option>
-                              <option value="tablets-ipads">Tablets/iPads</option>
-                              <option value="computers">Computers</option>
-                              <option value="cameras">Cameras</option>
-                           </select>
-                        </div>
-                        <div class="form-group">
-                           <label for="condition">Condition:</label>
-                           <select name="condition" id="condition" class="form-control">
-                              <option value="">All conditions</option>
-                              <option value="new">New</option>
-                              <option value="used">Used</option>
-                              <option value="good">Good</option>
-                              <option value="acceptable">Acceptable</option>
-                           </select>
-                        </div>
-                     </div>
-                     <div class="col-md-6">
-                        <div class="form-group">
-                           <label for="price-range">Price range:</label>
-                           <input type="range" id="price-range" name="price-range" min="0" max="1000" class="form-range">
-                           <div class="range-values">
-                              <span class="min-value">$0</span>
-                              <span class="max-value">$1000+</span>
-                           </div>
-                        </div>
-                        <div class="form-group">
-                           <label for="rating">Minimum rating:</label>
-                           <input type="number" id="rating" name="rating" class="form-control" min="0" max="5" step="0.1">
-                        </div>
-                        <div class="form-group">
-                           <label for="sort-by">Sort by:</label>
-                           <select name="sort-by" id="sort-by" class="form-control">
-                              <option value="best-match">Best match</option>
-                              <option value="date-added">Date added</option>
-                              <option value="lowest-price">Lowest price</option>
-                              <option value="highest-price">Highest price</option>
-                           </select>
-                        </div>
-                     </div>
+              <h2 class="search-title">Search Electronics</h2>
+              <form action="/action_page.php" id="search-form">
+                <div class="row">
+                  <div class="searchcat">
+                    <div class="form-group">
+                      <label for="keywords">Keywords:</label>
+                      <input type="text" id="keywords" name="keywords" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="category">Category:</label>
+                      <select name="category" id="category" class="form-control">
+                        <option value="">All categories</option>
+                        <option value="mobile-phones">Mobile phones</option>
+                        <option value="tablets-ipads">Tablets/iPads</option>
+                        <option value="computers">Computers</option>
+                        <option value="cameras">Cameras</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="condition">Condition:</label>
+                      <select name="condition" id="condition" class="form-control">
+                        <option value="">All conditions</option>
+                        <option value="new">New</option>
+                        <option value="used">Used</option>
+                        <option value="good">Good</option>
+                        <option value="acceptable">Acceptable</option>
+                      </select>
+                    </div>
                   </div>
-                  <button type="submit" class="btn btn-primary">Search</button>
-               </form>
+                  <div class="searchcat">
+                    <div class="form-group">
+                      <label for="price-range">Price range:</label>
+                      <input type="range" id="price-range" name="price-range" min="0" max="1000" class="form-range">
+                      <div class="range-values">
+                        <span class="min-value">$0</span>
+                        <span class="max-value">$1000+</span>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="rating">Minimum rating:</label>
+                      <input type="number" id="rating" name="rating" class="form-control" min="0" max="5" step="0.1">
+                    </div>
+                    <div class="form-group">
+                      <label for="sort-by">Sort by:</label>
+                      <select name="sort-by" id="sort-by" class="form-control">
+                        <option value="best-match">Best match</option>
+                        <option value="date-added">Date added</option>
+                        <option value="lowest-price">Lowest price</option>
+                        <option value="highest-price">Highest price</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="searchcat">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                  </div>
+                </div>
+              </form>
             </div>
-         </section>
+          </section>
          <div id="toast">
             <h1 id="section3h1">Electronics</h1>
             <div id="section3">
