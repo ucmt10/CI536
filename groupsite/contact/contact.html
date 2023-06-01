@@ -30,11 +30,28 @@
 
         </form>
         <div id="contact-popup">
-            <button onclick="closePopup()">Close</button>
+            <button class="close-button" onclick="closePopup()">Close</button>
+
         </div>
           
         </div>
     </div>
 </div>
+
+<script>
+    // JavaScript code for the contact page
+
+    // Function to handle the close button click event
+    function handleCloseButtonClick() {
+        // Redirect the user to the main page
+        window.location.href = "../home.html"; // Replace "index.html" with the URL of your main page
+    }
+
+    // Get a reference to the close button element
+    var closeButton = document.getElementById("contact-popup"); // Replace "closeButton" with the ID of your close button element
+
+    // Add a click event listener to the close button
+    closeButton.addEventListener("click", handleCloseButtonClick);
+</script>
   
 </body>
