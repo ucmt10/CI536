@@ -71,8 +71,11 @@ If you encounter any issues while using DoSplit, please contact the development 
 Contributors names:
 
 Katarzyna Przywara
+
 Mareena Perera 
+
 Ufuomavefe Moses-Taiga
+
 Ria Kumar
 
 ## Version History
