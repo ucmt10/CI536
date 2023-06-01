@@ -7,14 +7,6 @@ body {
   background-size: cover;
 }
 
-div#toast {
-  background-color: rgba(119, 25, 140, 0.715);
-  background-size: cover;
-  color: rgb(255, 255, 255);
-  border-radius: 20px;
-  padding: 1px;
-}
-
 /* Style the links inside the navigation bar */
 .topbar a {
   float: right;
@@ -232,22 +224,115 @@ div#section2txtR {
 }
 
 /* section for search */
-
 #search {
-  background-color: #f8f9fa;
+  background-color: #f0484846;
   padding: 40px 0;
+  border-radius: 20px;
+  width: 50%;
+  margin-bottom: 30px;
+  position: relative; /* Add position relative */
 }
 
 .search-title {
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 30px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.searchcat,
+.categorycat {
+  flex-basis: calc(50% - 30px);
+  margin-bottom: 15px;
+}
+
+.searchcat .form-group,
+.categorycat .form-group {
+  margin-bottom: 15px;
 }
 
 .range-values {
   display: flex;
   justify-content: space-between;
 }
+
+.price-cat,
+.sort-cat {
+  flex-basis: calc(50% - 30px);
+  margin-bottom: 15px;
+}
+
+.price-cat .form-group,
+.sort-cat .form-group {
+  margin-bottom: 15px;
+}
+
+.searchcat .btn-search-cat {
+  border-radius: 20px; /* Rounded corners */
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #4caf50; /* Change background color */
+  color: white; /* Change text color */
+  border: none; /* Remove border */
+  position: absolute; /* Position absolute */
+  bottom: -20px; /* Move the button down */
+  right: -20px; /* Move the button to the right */
+  width: 40px; /* Set width to make it square */
+  height: 40px; /* Set height to make it square */
+}
+
+
+/* Additional styles for the form fields */
+
+.keyword-input,
+.category-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.price-range {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-input {
+  width: 100px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.rating-input,
+.sort-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-button {
+  background-color: #f8c093;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
 
 /* section for the items */
 div#toast {
@@ -404,6 +489,13 @@ li a:hover {
   }
   .item {
     flex-basis: 100%;
+  }
+  .searchcat,
+  .categorycat,
+  .price-cat,
+  .sort-cat {
+    flex-basis: 100%;
+    margin: 0;
   }
 }
 
