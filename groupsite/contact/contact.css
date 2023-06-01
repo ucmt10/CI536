@@ -3,7 +3,8 @@
 body { 
   margin: 0; 
   padding: 0; 
-  background: transparent;
+  background: url("../images/bgs/6053830.jpg") no-repeat
+    center center fixed;
   font-family: Raleway; 
   text-transform: uppercase; 
   font-size: 11px; 
@@ -50,18 +51,7 @@ h1{ margin: 0; }
     border: 6px solid rgb(143, 52, 104);
   }
   
-  .close-btn {
-    margin-top: 10px;
-    padding: 8px 20px;
-    background-color: #e1ade6;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 100%;
-    color: rgb(84, 26, 81);
-    text-transform: uppercase;
-    font-family: Raleway; 
-  }
+ 
   input, textarea { 
     margin: .8em auto;
     font-family: inherit; 
@@ -85,4 +75,17 @@ h1{ margin: 0; }
     font-size: 1.2em;
     border: none;
     height: 30px;
+  }
+  .close-button {
+    width: 100%;
+    display: inline-block;
+    
+    background: rgb(157, 155, 157);
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.2em;
+    border: none;
+    height: 30px;
+    text-transform: uppercase;
+    font-family: Raleway; 
   }
