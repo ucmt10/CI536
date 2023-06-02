@@ -1,0 +1,741 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(255, 255, 255);
+ background-image: url("./images/bgs/withoutdots.jpg");
+    background-size: cover;
+
+}
+
+
+div#toast{
+background-color: rgba(119, 25, 140, 0.715);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 1px;
+    margin-top: 180px;
+
+}
+
+  /* Custom styling for the "Electronics" heading */
+  .electronics-heading a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .electronics-heading a:hover {
+    text-decoration: none;
+    color: #0b010c;
+  }
+
+  
+
+
+div#crumpet{
+    background-color: rgba(119, 25, 140, 0.715);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 42px;
+    margin-bottom: 100px;
+    padding: 1px;
+    }
+
+
+    
+    #bottom-right-button {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 20px;
+        padding: 10px 40px;
+        background-color: #c0cbf6;
+        color: #000000;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+/*button for item page*/
+      #crumpet #section4 article a button {
+        background-color: #c0cbf6;
+        border: none;
+        color: #000000;
+        padding: 5px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      #crumpet #section4 article a button:hover {
+        background-color: #9d7ae4;
+      }
+       
+      
+
+#sellers a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /* no underline */
+    background-color: #dab48d;
+    padding: 3px;
+}
+
+#sellers a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /* no underline */
+    background-color: #987654;
+    padding: 3px;
+}
+
+#buyers a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /* no underline */
+    background-color: #dfc683;
+    padding: 3px;
+
+}
+
+#buyers a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /* no underline */
+    background-color: #aa965e;
+    padding: 3px;
+}
+
+
+/* Style the links inside the navigation bar */
+.topbar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 10px;
+
+}
+
+/* Change the color of links on hover */
+.topbar a:hover {
+    color: black;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+/* Add a color to the active/current link */
+.topbar a.active {
+    color: rgb(65, 65, 65);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
+div.topbar {
+    text-align: right;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+div#loginsection {
+    background-color: rgba(249, 55, 127, 0.75);
+    margin: auto;
+    margin-top: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 80%;
+
+}
+
+button#leavelogin {
+    display: flex;
+    position: absolute;
+    z-index: 9999;
+    right: 8em;
+    top: 7em;
+}
+
+div.logincontainer {
+    padding: 20px;
+}
+
+button#submit {
+    display: block;
+}
+
+label {
+    display: block;
+
+}
+
+img#login {
+    width: 550px;
+    height: fit-content;
+}
+
+form#form {
+    border-radius: 15px;
+    padding: 5px 10px;
+    border: none;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+}
+
+input#query.search {
+    background-color: transparent;
+    border: none;
+}
+
+/* Style the nav2 */
+.nav2 a {
+font-size: 20px;
+text-decoration: none;
+position: relative;
+}
+
+.nav2 p {
+margin-left: 10px;
+display: flex;
+align-items: center;
+}
+
+.nav2 a:first-of-type {
+margin-right: 10px;
+}
+
+.nav2 a:first-of-type::after {
+content: "⇒";
+font-weight: bold;
+margin-left: 5px;
+}
+
+.nav2 a:not(:last-of-type):hover {
+font-weight: bold;
+}
+
+
+div#section1 {
+    margin-top: 8%;
+    display: block;
+    margin-bottom: 5em;
+    
+}
+
+#title img {
+    margin-right: 10px;
+}
+
+
+div#title {
+    display: flex;
+    align-items: center;
+}
+
+img#logo {
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+div#textcontainer {
+    /* display: inline-block; */
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    font-size: 2em;
+    margin-right: 4em;
+    vertical-align: middle;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 0.7;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+svg {
+    color: #fff;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+
+}
+
+button svg {
+    width: 20px;
+    height: 20px;
+}
+
+
+div#section2 h2 {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+div#section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10em;
+
+}
+
+div#sellers,
+div#buyers {
+    width: 48%;
+    text-align: center;
+    position: relative;
+}
+
+img#nft1,
+img#nft2 {
+    width: 100%;
+    height: 560px;
+    border-radius: 20px;
+}
+
+div#section2txtL {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+
+    backdrop-filter: blur(3.5px);
+    border-radius: 10px;
+
+
+}
+
+
+div#section2txtR {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+
+    backdrop-filter: blur(3.5px);
+    border-radius: 10px;
+
+}
+
+h1#section3h1 {
+    margin-left: 1em;
+    padding: 0;
+    margin-top: 1em;
+}
+
+div#section3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+
+}
+
+img#pic {
+    max-width: 100%;
+    height: auto;
+    /* Add margin to all images except the last one */
+    border-color: white;
+    border-style: solid;
+    border-width: thick;
+    background-color: rgb(141 89 223);
+        box-shadow: 0 8px 32px 0 rgb(117 1 137);
+    backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+img#pic:last-of-type {
+    margin-right: 0;
+    /* Remove margin from the last image */
+}
+
+div#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b5,
+#b6 {
+    
+    padding: 10px;
+    text-align: center;
+}
+
+h1#section4h1 {
+    margin-left: 1em;
+    padding: 0;
+    margin-top: 1em;
+}
+
+
+img#pic2 {
+    width: 35%;
+    height: auto;
+    border-radius: 30px;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+/* Style the article content- item page */
+div#section4 article {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div#section4 {
+    display: flex;
+}    
+
+.column-item {
+  flex: 1;
+}
+
+/* About the seller-item page */
+
+.seller-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #faf4f7cf;
+    border-radius: 20px;
+    width: 80%;
+    margin:0 auto;
+    color: #451357;
+  }
+  
+  .seller-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+
+  }
+  
+  .seller-info h3.seller-name {
+    font-size: 20px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .seller-info h3.seller-name img {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+  }
+  
+  .seller-info p.feedback {
+    font-size: 16px;
+    font-style: italic;
+    margin: 5px 0 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .seller-info p.feedback img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .seller-info h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .seller-info ul.customer-reviews {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .seller-info li {
+    margin-bottom: 20px;
+  }
+  
+  .customer-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .customer-info img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+  }
+  
+  .seller-info h5.customer-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .seller-info p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .seller-info .seller-icon {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 10px;
+  }
+    
+img#pic3 {
+    width: 50%;
+    height: auto;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+/*contact seller */
+
+.contact-seller {
+    margin-top: 100px;
+    padding: 20px;
+    background-color: rgba(119, 25, 140, 0.715);
+    border-radius: 20px;
+  }
+
+  .contact-seller h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .contact-seller form {
+    margin-top: 20px;
+  }
+
+  .contact-seller label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .contact-seller textarea {
+    display: block;
+    width: 80%;
+    height: 100px;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 10px;
+  }
+
+.contact-seller button {
+  background-color: #c0cbf6;
+  color: #000000;
+  padding: 5px 30px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  /* Center the text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+  .contact-seller button:hover {
+    background-color: #9d7ae4;
+  }
+
+  
+
+/* footer*/
+
+footer {
+    background-color: rgba(255, 255, 255, 0.658);
+    color: #020202;
+    font-size: 14px;
+    padding: 30px;
+    text-align: center;
+    margin-top: 200px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37)
+    
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex-basis: 25%;
+    margin-bottom: 10px;
+  }
+  
+  .about-us h3, .buy-sell h3, .quick-links h3, .company-name h3 {
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li a {
+    color: #252424;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }
+
+  .sub-footer {
+    background-color: rgb(31 38 135 / 23%);
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .sub-footer p {
+    margin: 0;
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    img#pic2 {
+      display: none;
+    }
+    footer {
+      padding: 20px;
+    }
+    .column {
+      flex-basis: 50%;
+    }
+  }
+
+  /* For screens that are 768px wide or less */
+@media (max-width: 768px) {
+    /* Reduce the font size of the h1 and h2 elements */
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    /* Modify the width of the search input */
+    input[type="search"] {
+        width: 70%;
+    }
+    /* Modify the size of the navigation links */
+    .navigation a {
+        font-size: 14px;
+    }
+      
+    /* Style the image to be centered */
+    img#pic3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*display about the item under the image */
+    div#section4 {
+      flex-direction: column;
+    }
+}
+
+/* For screens that are 992px wide or less */
+@media (max-width: 992px) {
+    /* Modify the layout of the topbar */
+    .topbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .navigation {
+        width: 100%;
+    }
+    .search {
+        width: 100%;
+    }
+}
+
+/* For screens that are 1200px wide or less */
+@media (max-width: 1200px) {
+    /* Modify the layout of the category images */
+    #section3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #b1, #b2, #b3, #b4, #b5, #b6 {
+        width: 33%;
+        
+    }
+}
+
+
+/*
+<a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Freepik - Flaticon</a>
+/*

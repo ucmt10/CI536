@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/cf5bb2af50.js" crossorigin="anonymous"></script>
+    <link href="contact.css" rel="stylesheet" />
+    <script src="contact.js"></script>
+    <!-- <link href="../normalize.css" rel="stylesheet">
+    <link href="../home.css" rel="stylesheet" /> -->
+    <title>Contact Us</title>
+</head>
+
+<body>
+<div id = "popup">
+    <div class="popup-container">
+        <div class="popup-content">
+        <!-- Contact form content goes here -->
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <!-- Form fields go here -->
+            <input placeholder="Name" type="text" required />
+            <input placeholder="Email" type="email" required />
+            <input placeholder="Subject" type="text" required />
+            <textarea placeholder="Comment"></textarea>
+
+            <input class="formBtn" type="submit" />
+            <input class="formBtn" type="reset" />
+
+        </form>
+        <div id="contact-popup">
+            <button onclick="closePopup()">Close</button>
+        </div>
+          
+        </div>
+    </div>
+</div>
+  
+</body>
