@@ -1,134 +1,221 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link href="normalize.css" rel="stylesheet" />
-      <link href="home.css" rel="stylesheet" />
-      <script src="home.js"></script>
-      <title>Brighton Bazaar</title>
-   </head>
-   <body>
-      <main>
-         <header>
-            <div class="topbar">
-               <div class="navigation">
-                  <a class="active" href="#home">Home</a>
-                  <a href="buy.html">Buy</a>
-                  <a href="sell/sell.html">Sell</a>
-                  <a href="login.php">Log In</a>
-                  <a href="#signup" id="signup">Sign Up</a>
-                  <a href="basket.html" id="shopping-basket">
-                     <img
-                       src="images/shopping_cart_black_24dp.svg"
-                       alt="Shopping Basket"
-                       id="basket-icon-black"
-                     />
-                     <span id="basket-count">0</span>
-                   </a>
-               </div>
-            </div>
-         </header>
-         <div id="butter">
-            <div id="loginsection">
-               <button id="leavelogin">X</button>
-               <div id="loginill">
-                  <img id="login" src="./images/13.svg" alt="man on laptop">
-               </div>
-               <div class="logincontainer">
-                  <h2> Weclome back! Please Log In</h2>
-                  <label for="uname"><b>Username</b></label>
-                  <input type="text" placeholder="Enter Username" name="uname" required>
-                  <label for="psw"><b>Password</b></label>
-                  <input type="password" placeholder="Enter Password" name="psw" required>
-                  <button id="submit" type="submit">Login</button>
-                  <label>
-                  <input type="checkbox" checked="checked" name="remember"> Remember me
-                  </label>
-               </div>
-            </div>
-            <div id="section1">
-               <div id="logo+txt">
-                  <img id="logo" src="./images/brighton bazaar.svg" alt="Italian Trulli">
-                  <div id="textcontainer">
-                     <h1> Explore the marketplace.</h1>
-                     <h2> Buy. Sell. Enjoy.</h2>
-                  </div>
-               </div>
-            </div>
-         </div>
-         </div>
-         <div id="crumpet">
-            <h1 id="section4h1">About Us</h1>
-            <div id="section4">
-               <img id="pic2"
-                  src="./images/undraw_shopping__bags_mjvf.svg">
-               <article>
-                  <h3>Meet: Brighton Bazaar</h3>
-                  <p>Welcome to Brighton Bazaar, the vibrant student marketplace community for buying and selling items and services in the bustling city of Brighton </p>
-                  <p>As a student, you are always looking for ways to save money and make your budget stretch further. Brighton Bazaar is the perfect platform for you to do just that! With a wide range of items and services on offer, from textbooks and stationary to fashion and electronics, you're sure to find what you're looking for at a great price.</p>
-                  <p>But Brighton Bazaar is more than just a marketplace. It's a community of like-minded students who are passionate about helping each other out and making the most of their time in Brighton. Whether you're a new student looking for advice on the best places to go or an experienced local wanting to share your knowledge, Brighton Bazaar is the place to be.</p>
-                  <p>So how does it work? It's simple! As a buyer, you can browse through listings for items and services that interest you. You can contact the seller directly to ask questions or make an offer. Once you've agreed on a price, you can arrange to meet up and exchange the item or service. It's a great way to save money and get to know other students at the same time.</p>
-                  <p>As a seller, you can list your items or services for free. You can upload photos and descriptions of your items, and set your own prices. You can also choose whether to sell your item locally or to offer shipping to other areas. Once you've found a buyer, you can arrange to meet up and complete the transaction.</p>
-                  <p>At Brighton Bazaar, we believe that buying and selling should be easy and hassle-free. That's why we've created a platform that is safe, secure, and easy to use. We take your privacy seriously and will never share your personal information with third parties. We also have a dedicated support team who are available to answer any questions you may have.</p>
-               </article>
-            </div>
-         </div>
-         <div id="tea">
-            <div id="section2">
-              <div id="sellers" class="image-wrapper">
-                <div id="section2txtL">
-                  <h2><a href="buy.html"></a></h2>
-                </div>
-                <img id="nft1" src="./images/kelly-sikkema-Uh5GWNUGgGY-unsplash.jpg" alt="image of buy">
-              </div>
-              <div id="buyers" class="image-wrapper">
-                <img id="nft2" src="./images/kelly-sikkema-6vudIBHwLe8-unsplash.jpg" alt="image of sell">
-                <div id="section2txtR">
-                  <h2><a href="sell.html"></a></h2>
-                </div>
-              </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="normalize.css" rel="stylesheet" />
+    <link href="home.css" rel="stylesheet" />
+    <script src="home.js"></script>
+    <title>Brighton Bazaar</title>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <div class="topbar">
+          <div class="navigation">
+            <a class="active" href="#home">Home</a> <a href="buy.html">Buy</a>
+            <a href="sell/sell.html">Sell</a> <a href="login.php">Log In</a>
+            <a href="#signup" id="signup">Sign Up</a>
+            <a href="basket.html" id="shopping-basket">
+              <img
+                src="images/shopping_cart_black_24dp.svg"
+                alt="Shopping Basket"
+                id="basket-icon-black"
+              />
+              <span id="basket-count">0</span>
+            </a>
+          </div>
+        </div>
+      </header>
+      <div id="butter">
+        <div id="loginsection">
+          <button id="leavelogin">X</button>
+          <div id="loginill">
+            <img id="login" src="./images/13.svg" alt="man on laptop" />
+          </div>
+          <div class="logincontainer">
+            <h2>Weclome back! Please Log In</h2>
+            <label for="uname"><b>Username</b></label>
+            <input
+              type="text"
+              placeholder="Enter Username"
+              name="uname"
+              required
+            />
+            <label for="psw"><b>Password</b></label>
+            <input
+              type="password"
+              placeholder="Enter Password"
+              name="psw"
+              required
+            />
+            <button id="submit" type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember" />
+              Remember me
+            </label>
+          </div>
+        </div>
+        <div id="section1">
+          <div id="logo+txt">
+            <img
+              id="logo"
+              src="./images/brighton bazaar.svg"
+              alt="Italian Trulli"
+            />
+            <div id="textcontainer">
+              <h1>Explore the marketplace.</h1>
+              <h2>Buy. Sell. Enjoy.</h2>
             </div>
           </div>
-          
-          
-      </main>
-      <footer>
-         <div class="footer-container">
-            <div class="column about-us">
-               <h3>About Us</h3>
-               <p>Brighton Bazaar is a student marketplace where you can buy and sell a variety of products.</p>
-               <p>Contact us to learn more!</p>
+        </div>
+      </div>
+      <div id="crumpet">
+        <h1 id="section4h1">About Us</h1>
+        <div id="section4">
+          <img id="pic2" src="./images/undraw_shopping__bags_mjvf.svg" />
+          <article>
+            <h3>Meet: Brighton Bazaar</h3>
+            <p>
+              Welcome to Brighton Bazaar, the vibrant student marketplace
+              community for buying and selling items and services in the
+              bustling city of Brighton
+            </p>
+            <p>
+              As a student, you are always looking for ways to save money and
+              make your budget stretch further. Brighton Bazaar is the perfect
+              platform for you to do just that! With a wide range of items and
+              services on offer, from textbooks and stationary to fashion and
+              electronics, you're sure to find what you're looking for at a
+              great price.
+            </p>
+            <p>
+              But Brighton Bazaar is more than just a marketplace. It's a
+              community of like-minded students who are passionate about helping
+              each other out and making the most of their time in Brighton.
+              Whether you're a new student looking for advice on the best places
+              to go or an experienced local wanting to share your knowledge,
+              Brighton Bazaar is the place to be.
+            </p>
+            <p>
+              So how does it work? It's simple! As a buyer, you can browse
+              through listings for items and services that interest you. You can
+              contact the seller directly to ask questions or make an offer.
+              Once you've agreed on a price, you can arrange to meet up and
+              exchange the item or service. It's a great way to save money and
+              get to know other students at the same time.
+            </p>
+            <p>
+              As a seller, you can list your items or services for free. You can
+              upload photos and descriptions of your items, and set your own
+              prices. You can also choose whether to sell your item locally or
+              to offer shipping to other areas. Once you've found a buyer, you
+              can arrange to meet up and complete the transaction.
+            </p>
+            <p>
+              At Brighton Bazaar, we believe that buying and selling should be
+              easy and hassle-free. That's why we've created a platform that is
+              safe, secure, and easy to use. We take your privacy seriously and
+              will never share your personal information with third parties. We
+              also have a dedicated support team who are available to answer any
+              questions you may have.
+            </p>
+          </article>
+        </div>
+      </div>
+      <div id="tea">
+        <div id="section2">
+          <div id="sellers" class="image-wrapper">
+            <div id="section2txtL">
+              <h2><a href="buy.html"></a></h2>
             </div>
-            <div class="column quick-links">
-               <h3>Quick Links</h3>
-               <ul>
-                  <li><a href="home.html">Home</a>
-                  <li><a href="buy.html">Buy</a>
-                  <li><a href="sell/sell.html">Sell</a>
-                  <li><a href="contact/contact.html" onclick="openPopup(event)">Contact Us</a>
-                  <li><a href="terms.html">Terms</a>
-                 
-
-               </ul>
+            <img
+              id="nft1"
+              src="./images/kelly-sikkema-Uh5GWNUGgGY-unsplash.jpg"
+              alt="image of buy"
+            />
+          </div>
+          <div id="buyers" class="image-wrapper">
+            <img
+              id="nft2"
+              src="./images/kelly-sikkema-6vudIBHwLe8-unsplash.jpg"
+              alt="image of sell"
+            />
+            <div id="section2txtR">
+              <h2><a href="sell.html"></a></h2>
             </div>
-            <div class="column company-name">
-               <h3>Brighton Bazaar</h3>
-               <p>1 Main St.</p>
-               <p>BN15PF Brighton</p>
-               <p>(01273) 12345678</p>
-               <p>brightonbazaar@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="column about-us">
+          <h3>About Us</h3>
+          <p>
+            Brighton Bazaar is a student marketplace where you can buy and sell
+            a variety of products.
+          </p>
+          <p>Contact us to learn more!</p>
+        </div>
+        <div class="column quick-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="buy.html">Buy</a></li>
+            <li><a href="sell/sell.html">Sell</a></li>
+            <li>
+              <a href="contact/contact.html" onclick="openPopup(event)"
+                >Contact Us</a
+              >
+            </li>
+            <li><a href="terms.html">Terms</a></li>
+          </ul>
+        </div>
+        <div class="column company-name">
+          <h3>Brighton Bazaar</h3>
+          <p>1 Main St.</p>
+          <p>BN15PF Brighton</p>
+          <p>(01273) 12345678</p>
+          <p>brightonbazaar@gmail.com</p>
+        </div>
+      </div>
+      <div class="sub-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>&copy; 2023 Brighton Bazaar. All Rights Reserved.</p>
             </div>
-         </div>
-         <div class="sub-footer">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <p>&copy; 2023 Brighton Bazaar. All Rights Reserved.</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </footer>
-   </body>
+          </div>
+        </div>
+      </div>
+      <div class="contributors">
+        <p>
+          Image 'Buy' by Kelly Sikkema, 2022, free stock photo licensed under
+          the <a href="https://unsplash.com/license">Unsplash License</a>.
+          Downloaded from
+          <a href="https://unsplash.com/photos/Uh5GWNUGgGY"
+            >https://unsplash.com/photos/Uh5GWNUGgGY</a
+          >
+        </p>
+        <p>
+          Image 'Sell' by Kelly Sikkema, 2022, free stock photo licensed under
+          the <a href="https://unsplash.com/license">Unsplash License</a>.
+          Downloaded from
+          <a href="https://unsplash.com/photos/6vudIBHwLe8"
+            >https://unsplash.com/photos/6vudIBHwLe8</a
+          >
+        </p>
+        <p>
+          Image 'Shopping bags' by unDraw 2017, free stock photo licensed under
+          the <a href="https://undraw.co/license">unDraw License</a>. Downloaded
+          from
+          <a href="https://undraw.co/illustrations?ref=blogduwebdesign.com"
+            >https://undraw.co/illustrations?ref=blogduwebdesign.com</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
