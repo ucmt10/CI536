@@ -636,6 +636,10 @@ footer {
     text-decoration: underline;
   }
 
+  .column.quick-links li a {
+    margin-bottom: 20px;
+  }
+
   .sub-footer {
     background-color: rgb(31 38 135 / 23%);
     padding: 10px 0;
@@ -647,6 +651,24 @@ footer {
     margin: 0;
   }
   
+  .contributors {
+    font-size: 12px;
+  }
+  
+  .contributors p {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 5px 0;
+  }
+  
+  .contributors a {
+    color: #252424;
+    text-decoration: none;
+  }
+  
+  .contributors a:hover {
+    text-decoration: underline;
+  }
 
   @media screen and (max-width: 600px) {
     img#pic2 {
