@@ -1,0 +1,536 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+.h1{
+  font-family: 'Roboto Condensed';
+  text-decoration: none;
+}
+
+ #feature, .article {
+    padding: 10px 0px 5px 0px;
+  }
+ 
+
+
+#feaure, .article {
+    height: 100px;}
+li {
+    display: inline;
+    padding: 5 px;
+}
+
+
+  body {
+background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+  }
+
+  img#logo {
+    float: left;
+    margin-left: 5em;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+
+  /*background: rgba( 255, 255, 255, 0.25 ); */
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 )
+
+}
+
+/* The container <div> - needed to position the nav content */
+.navmenu {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+  display:grid;
+  padding: 10px;
+  background: rgba(200, 182, 238, 0.25);
+  box-shadow: 0 8px 23px 0 rgba(185, 189, 245, 0.37);
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+
+}
+
+.navmenu li {
+  display: block;
+}
+
+  .article {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    text-align: justify;
+  }
+  
+  .article:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    margin: -20px;
+  }
+  
+#feature.grid_12 {
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.image {
+    background: url(images/maxim-berg-lnvpji4fC3c-unsplash.jpg) no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 105%;  
+    width: 100%
+  }
+
+  .imagetxt {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+  }
+  .image2 {
+    background: url(images/A\ soothing\ wallpaper.jfif) no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 105%;  
+    width: 100%
+
+  }
+  .imagetxt2 {
+    position: relative;
+    text-align: justify;
+    text-justify: inter-cluster;
+    color: white;
+  }
+  .centered2{
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding: 1rem;
+  }
+  .centered2 {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+  }
+.centered2{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 65%;
+}
+
+
+
+#article1.grid_12{
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  text-align: justify;
+  overflow: hidden;
+     
+}
+
+#article1.grid_12:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(10px);
+  margin: -20px;
+  text-decoration: none;
+}
+
+.image3 {
+  background: url(images/maxim-berg-lnvpji4fC3c-unsplash.jpg) no-repeat fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 105%;  
+  width: 100%
+
+}
+
+.imagetxt3 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+}
+
+
+.centered3{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 1rem;
+width: 65%;
+
+}
+
+
+#article2.grid_12{
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  text-align: justify;
+  overflow: hidden;
+    
+}
+
+#article2.grid_12:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(10px);
+  margin: -20px;
+  text-decoration: none;
+}
+
+.image4 {
+  background: url(images/codioful-formerly-gradienta-W75no7rGSLk-unsplash.jpg) no-repeat fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 105%;  
+  width: 100%
+
+}
+
+.imagetxt4 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered4{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 1rem;
+width: 65%;
+
+}
+
+
+#article3.grid_12{
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  text-align: justify;
+  overflow: hidden;
+ 
+}
+
+#article3.grid_12:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(10px);
+  margin: -20px;
+  text-decoration: none;
+}
+
+.image5 {
+  background: url(images/maxim-berg-lnvpji4fC3c-unsplash.jpg) no-repeat fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;  
+  width: 100%
+
+}
+
+.imagetxt5 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  width: 65%;
+}
+
+.sd {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  width: 65%;
+}
+
+
+
+.centered5 {
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav {
+  --nav-gap: 15px;
+  padding: var(--nav-gap);
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-item {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: var(--nav-gap);
+}
+
+.nav-link:hover ~ .nav-label {
+  opacity: 1;
+}
+
+.nav-label {
+  color: #000000;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+
+.nav-link {
+  border-radius: 50%;
+  height: var(--nav-gap);
+  margin-left: var(--nav-gap);
+  transition: transform 0.1s;
+  width: var(--nav-gap);
+}
+
+.nav-link-selected {
+  transform: scale(1.4);
+}
+
+/* what i used to make the new nav bar  */
+
+
+.sbn-list {
+	margin: 80px 80px 0;
+	overflow: hidden;
+}
+.sbn {
+	height: 280px;
+	padding-top: 80px;
+	border-top: 1px solid #fff;
+	box-sizing: border-box;
+  position: fixed;
+  left: 0px;
+  z-index: 100;
+  display: grid;
+}
+.sbn:nth-of-type(odd) {
+	float: left;
+}
+.sbn:nth-of-type(even) {
+	float: right;
+}
+.sbn:nth-of-type(1),
+.sbn:nth-of-type(2) {
+	height: 200px;
+	padding-top: 0;
+	border-top: none;
+}
+.sbn p {
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+@media screen and (max-width: 800px) {
+	.sbn-list {
+		margin: 80px 40px 0;
+	}
+	.sbn {
+		width: auto;
+		float: none !important;
+	}
+	.sbn:nth-of-type(2) {
+		height: 280px;
+		padding-top: 80px;
+		border-top: 1px solid #fff;
+	}
+	ul li {
+		margin: 0 .7em !important;
+	}
+	.sbn13 ul li {
+		width: 26px;
+		margin: 0 .6em !important;
+	}
+}
+
+
+ul {
+	list-style: none;
+	text-align: center;
+}
+ul li {
+	display: inline-block;
+	margin: 0 1em;
+}
+ul li a {
+	display: block;
+	width: 18px;
+	height: 18px;
+	font-size: 0;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	outline: none;
+	box-sizing: border-box;
+	transition: .2s ease-in-out;
+}
+
+
+.sbn ul li a {
+	background-color: rgba(255,255,255,.5);
+	border-radius: 50%;
+}
+.sbn ul li a:hover {
+	background-color: rgba(255,255,255,1);
+  transform: scale(1.4);
+
+}
+.sbn ul li a.is-active {
+	background-color: rgba(255,255,255,1);
+	transform: scale(1.4);
+}
+
+
+/* trying to make the text somewhat responsive so we dont get shit on by andrew for it */
+
+@media only screen and (max-width: 900px) {
+  .image, .image2,.image3,.image4,.image5
+  { 
+      
+      background-size:cover;
+  }
+}
+
+.footer{
+    font-size: px;
+}
+  
+  
+
