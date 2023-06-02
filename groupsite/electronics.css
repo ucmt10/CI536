@@ -114,6 +114,8 @@ div#title {
 
 img#logo {
   float: left;
+  max-width: 100%;
+  height: auto;
 }
 
 div#textcontainer {
@@ -130,7 +132,6 @@ div#textcontainer {
   color: #fff;
   opacity: 0.7;
 }
-
 
 svg {
   color: #fff;
@@ -208,7 +209,7 @@ div#section2txtR {
   width: 40%;
   margin-bottom: 100px;
   margin-top: 150px;
-  position: relative; 
+  position: relative;
 }
 
 .search-title {
@@ -240,7 +241,6 @@ div#section2txtR {
   justify-content: space-between;
 }
 
-
 .price-cat,
 .sort-cat {
   flex-basis: calc(50% - 30px);
@@ -268,7 +268,6 @@ div#section2txtR {
   border-radius: 10px;
   cursor: pointer;
 }
-
 
 /* Additional styles for the form fields */
 
@@ -303,10 +302,6 @@ div#section2txtR {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-
-
-
-
 
 /* section for the items */
 div#toast {
