@@ -3,7 +3,7 @@
 body {
   font-family: "Roboto Condensed", sans-serif;
   color: rgb(255, 255, 255);
-  background-image: url("./images/bgs/withoutdots.jpg.");
+  background-image: url("../images/bgs/withoutdots.jpg.");
   background-size: cover;
 }
 
