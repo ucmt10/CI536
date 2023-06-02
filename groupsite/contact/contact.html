@@ -1,57 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://kit.fontawesome.com/cf5bb2af50.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/cf5bb2af50.js"
+      crossorigin="anonymous"
+    ></script>
     <link href="contact.css" rel="stylesheet" />
     <script src="contact.js"></script>
     <!-- <link href="../normalize.css" rel="stylesheet">
     <link href="../home.css" rel="stylesheet" /> -->
     <title>Contact Us</title>
-</head>
+  </head>
 
-<body>
-<div id = "popup">
-    <div class="popup-container">
+  <body>
+    <div id="popup">
+      <div class="popup-container">
         <div class="popup-content">
-        <!-- Contact form content goes here -->
-        <h2>Contact Us</h2>
-        <form id="contact-form">
+          <!-- Contact form content goes here -->
+          <h2>Contact Us</h2>
+          <form id="contact-form">
             <!-- Form fields go here -->
             <input placeholder="Name" type="text" required />
             <input placeholder="Email" type="email" required />
             <input placeholder="Subject" type="text" required />
             <textarea placeholder="Comment"></textarea>
-
             <input class="formBtn" type="submit" />
             <input class="formBtn" type="reset" />
-
-        </form>
-        <div id="contact-popup">
+          </form>
+          <div id="contact-popup">
             <button class="close-button" onclick="closePopup()">Close</button>
-
+          </div>
         </div>
-          
-        </div>
+      </div>
     </div>
-</div>
-
-<script>
-    // JavaScript code for the contact page
-
-    // Function to handle the close button click event
-    function handleCloseButtonClick() {
+    <script>
+      // JavaScript code for the contact page
+      // Function to handle the close button click event
+      function handleCloseButtonClick() {
         // Redirect the user to the main page
         window.location.href = "../home.html"; // Replace "index.html" with the URL of your main page
-    }
-
-    // Get a reference to the close button element
-    var closeButton = document.getElementById("contact-popup"); // Replace "closeButton" with the ID of your close button element
-
-    // Add a click event listener to the close button
-    closeButton.addEventListener("click", handleCloseButtonClick);
-</script>
-  
-</body>
+      }
+      // Get a reference to the close button element
+      var closeButton = document.getElementById("contact-popup"); // Replace "closeButton" with the ID of your close button element
+      // Add a click event listener to the close button
+      closeButton.addEventListener("click", handleCloseButtonClick);
+    </script>
+  </body>
+</html>
