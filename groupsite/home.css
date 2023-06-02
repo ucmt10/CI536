@@ -79,14 +79,6 @@ div#crumpet{
        
       
 
-#sellers a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    /* no underline */
-    background-color: #dab48d;
-    padding: 3px;
-}
-
 #sellers a:hover {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -95,14 +87,7 @@ div#crumpet{
     padding: 3px;
 }
 
-#buyers a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    /* no underline */
-    background-color: #dfc683;
-    padding: 3px;
 
-}
 
 #buyers a:hover {
     color: rgb(255, 255, 255);
@@ -297,6 +282,7 @@ button svg {
     height: 20px;
 }
 
+/* section 2 */
 
 div#section2 h2 {
     display: inline-block;
@@ -325,8 +311,9 @@ div#buyers {
 img#nft1,
 img#nft2 {
     width: 100%;
-    height: 560px;
+    height: auto;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 div#section2txtL {
@@ -359,6 +346,7 @@ div#section2txtR {
 
 }
 
+/* section 3 */
 h1#section3h1 {
     margin-left: 1em;
     padding: 0;
@@ -698,6 +686,12 @@ footer {
     /* Modify the size of the navigation links */
     .navigation a {
         font-size: 14px;
+    }
+
+    div#sellers,
+    div#buyers {
+      width: 100%; /* Set width to 100% to make images occupy full width */
+      margin-bottom: 20px; /* Add some spacing between the images */
     }
       
     /* Style the image to be centered */
