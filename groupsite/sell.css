@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url("../images/maxim-berg-lnvpji4fC3c-unsplash.jpg");
+    background-size: cover;
+    color: rgb(255, 255, 255);
+
+}
+
+#sellers a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /* no underline */
+    background-color: #dab48d;
+    padding: 3px;
+}
+
+#sellers a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /* no underline */
+    background-color: #987654;
+    padding: 3px;
+}
+
+#buyers a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /* no underline */
+    background-color: #dfc683;
+    padding: 3px;
+
+}
+
+#buyers a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /* no underline */
+    background-color: #aa965e;
+    padding: 3px;
+}
+
+
+/* Style the links inside the navigation bar */
+.topbar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 10px;
+
+}
+
+/* Change the color of links on hover */
+.topbar a:hover {
+    color: black;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+/* Add a color to the active/current link */
+.topbar a.active {
+    color: rgb(65, 65, 65);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
+div.topbar {
+    text-align: right;
+    overflow: hidden;
+    margin-bottom: 4em;
+    background: rgba(255, 255, 255, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+div#loginsection {
+    background-color: rgba(249, 55, 127, 0.75);
+    margin: auto;
+    margin-top: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+
+}
+
+button#leavelogin {
+    display: flex;
+    position: absolute;
+    z-index: 9999;
+    right: 2em;
+    top: 8em;
+}
+
+div.logincontainer {
+    padding: 20px;
+}
+
+button#submit {
+    display: block;
+}
+
+label {
+    display: block;
+
+}
+
+img#login {
+    width: 550px;
+    height: fit-content;
+}
+
+
+
+
+form#form {
+    border-radius: 15px;
+    padding: 5px 10px;
+    border: none;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+}
+
+input#query.search {
+    background-color: transparent;
+    border: none;
+}
+
+
+div.section1 {
+    margin-top: 15%;
+    display: block;
+
+}
+
+#title img {
+    margin-right: 10px;
+}
+
+
+div#title {
+    display: flex;
+    align-items: center;
+}
+
+img#logo {
+    float: left;
+    margin-left: 5em;
+}
+
+div#textcontainer_1 {
+    /* display: inline-block; */
+    flex-direction: column;
+    /*justify-content: center;*/
+    text-align: right;
+    font-size: 2em;
+    margin-right: 1.5em;
+    /* vertical-align: middle; */
+    float: center;
+    overflow:inherit;
+    position: relative;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 0.7;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+svg {
+    color: #fff;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+
+}
+
+button svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* 
+div#section2 h2 {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px;
+    border-radius: 10px;
+
+} */
+
+/*div#section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10em;
+
+}
+*/
+
+img#GIF_1 {
+    width: 35%;
+    position: relative;
+    float: left;
+    margin-left: 4em;
+    border-radius: 20px;
+    /* margin-top: 2em; */
+}
+
+
+
+
+/*
+<a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Freepik - Flaticon</a>
+/*

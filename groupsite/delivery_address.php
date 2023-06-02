@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php $css_path = "basket.css"; ?>
+<?php $css_path = "deliver_address.css"; ?>
 <?php include 'header.php'; ?>
       <div id="butter">
         <div id="loginsection">
@@ -44,78 +44,52 @@
           </div>
         </div>
       </div>
-      <div class="shopping-basket">
-        <table>
-          <thead>
-            <tr>
-              <th>Item</th>
-              <th>Price</th>
-              <th>Quantity</th>
-              <th>Subtotal</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <div class="basket-item">
-                  <img
-                    src="./images/dummy_600x400_ab96ab_f0e4f2_image.png"
-                    alt="Item 1"
-                  />
-                  <div class="item-details">
-                    <h3>Item 1</h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </div>
-                </div>
-              </td>
-              <td>£12.00</td>
-              <td>
-                <input type="number" value="1" min="1" data-price="12.99" />
-              </td>
-              <td class="item-subtotal"></td>
-            </tr>
-            <tr>
-              <td>
-                <div class="basket-item">
-                  <img
-                    src="./images/dummy_600x400_ab96ab_f0e4f2_image.png"
-                    alt="Item 2"
-                  />
-                  <div class="item-details">
-                    <h3>Item 2</h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </div>
-                </div>
-              </td>
-              <td>£15.00</td>
-              <td>
-                <input type="number" value="1" min="1" data-price="21.99" />
-              </td>
-              <td class="item-subtotal"></td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td colspan="3">Total</td>
-              <td class="basket-total"></td>
-            </tr>
-            <tr>
-              <td colspan="4">
-                <button class="button-shopping">
-                  <a href="buy.php">Continue Shopping</a>
-                </button>
-                <button class="button-delivery">
-                  <a href="delivery_address.php">Checkout</a>
-                </button>
-              </td>
-            </tr>
-          </tfoot>
-        </table>
-      </div>
+      <form id="formdeliveryaddress" action="./payments/pay.html">
+        <h2>Delivery Address</h2>
+        <label for="name">Full Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your name.."
+          required
+        />
+        <label for="address">Address</label>
+        <textarea
+          id="address"
+          name="address"
+          placeholder="Your address.."
+          required
+        ></textarea>
+        <label for="city">City</label>
+        <input
+          type="text"
+          id="city"
+          name="city"
+          placeholder="Your city.."
+          required
+        />
+        <label for="county">County</label>
+        <input
+          type="text"
+          id="state"
+          name="state"
+          placeholder="Your county.."
+          required
+        />
+        <label for="post code">Post Code</label>
+        <input
+          type="text"
+          id="post code"
+          name="post code"
+          placeholder="Your post code.."
+          required
+        />
+        <button type="submit" name="submit-address">
+          Submit Address
+        </button>
+      </form>
+      
     </main>
     <footer>
       <div class="footer-container">

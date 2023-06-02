@@ -106,10 +106,10 @@
             <tr>
               <td colspan="4">
                 <button class="button-shopping">
-                  <a href="buy.php">Continue Shopping</a>
+                  <a href="buy.html">Continue Shopping</a>
                 </button>
                 <button class="button-delivery">
-                  <a href="delivery_address.php">Checkout</a>
+                  <a href="delivery_address.html">Checkout</a>
                 </button>
               </td>
             </tr>
@@ -130,9 +130,9 @@
         <div class="column quick-links">
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="home.php">Home</a></li>
-            <li><a href="buy.php">Buy</a></li>
-            <li><a href="sell.php">Sell</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="buy.html">Buy</a></li>
+            <li><a href="sell/sell.html">Sell</a></li>
             <li><a href="#">Contact Us</a></li>
           </ul>
         </div>

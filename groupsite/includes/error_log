@@ -1,0 +1,22 @@
+[16-May-2023 22:02:38 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home/rk506/public_html/intgroup/groupsite/includes/signup-inc.php on line 5
+[16-May-2023 22:04:01 UTC] PHP Parse error:  syntax error, unexpected token "." in /home/rk506/public_html/intgroup/groupsite/includes/dbh-inc.php on line 16
+[16-May-2023 22:05:13 UTC] PHP Parse error:  syntax error, unexpected identifier "location" in /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php on line 86
+[16-May-2023 22:15:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rk506/public_html/intgroup/groupsite/includes/signup-inc.php:21) in /home/rk506/public_html/intgroup/groupsite/includes/signup-inc.php on line 46
+[17-May-2023 01:46:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php:58) in /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php on line 60
+[17-May-2023 03:23:50 UTC] PHP Warning:  Undefined array key "userid" in /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php on line 118
+[17-May-2023 03:23:50 UTC] PHP Warning:  Undefined array key "userUid" in /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php on line 119
+[17-May-2023 03:23:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php:118) in /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php on line 120
+[17-May-2023 03:26:34 UTC] PHP Warning:  Undefined array key "userid" in /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php on line 118
+[17-May-2023 03:26:34 UTC] PHP Warning:  Undefined array key "userUid" in /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php on line 119
+[17-May-2023 03:26:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php:118) in /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php on line 120
+[17-May-2023 03:26:56 UTC] PHP Warning:  Undefined array key "userid" in /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php on line 118
+[17-May-2023 03:26:56 UTC] PHP Warning:  Undefined array key "userUid" in /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php on line 119
+[17-May-2023 03:26:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php:118) in /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php on line 120
+[17-May-2023 03:27:05 UTC] PHP Warning:  Undefined array key "userid" in /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php on line 118
+[17-May-2023 03:27:05 UTC] PHP Warning:  Undefined array key "userUid" in /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php on line 119
+[17-May-2023 03:27:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php:118) in /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php on line 120
+[17-May-2023 03:29:07 UTC] PHP Warning:  Undefined array key "userid" in /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php on line 118
+[17-May-2023 03:29:07 UTC] PHP Warning:  Undefined array key "uid" in /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php on line 119
+[17-May-2023 03:29:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php:118) in /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php on line 120
+[17-May-2023 03:31:55 UTC] PHP Warning:  Undefined array key "userUid" in /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php on line 119
+[17-May-2023 03:31:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php:119) in /home/rk506/public_html/intgroup/groupsite/includes/functions-inc.php on line 120
