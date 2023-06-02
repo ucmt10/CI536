@@ -1,18 +1,21 @@
 @import "https://fonts.googleapis.com/css?family=Raleway";
-* { box-sizing: border-box; }
-body { 
-  margin: 0; 
-  padding: 0; 
-  background: url("../images/bgs/6053830.jpg") no-repeat
-    center center fixed;
-  font-family: Raleway; 
-  text-transform: uppercase; 
-  font-size: 11px; 
+* {
+  box-sizing: border-box;
 }
-h1{ margin: 0; }
+body {
+  margin: 0;
+  padding: 0;
+  background: url("../images/bgs/6053830.jpg") no-repeat center center fixed;
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+h1 {
+  margin: 0;
+}
 
 #popup {
-    position: fixed;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -20,72 +23,93 @@ h1{ margin: 0; }
   height: 400px;
   background-color: transparent;
   z-index: 9999;
-  margin: 0; 
-  padding: 0; 
+  margin: 0;
+  padding: 0;
   background: transparent;
-  font-family: Raleway; 
-  text-transform: uppercase; 
+  font-family: Raleway;
+  text-transform: uppercase;
   font-size: 11px;
 }
 
-
 .popup-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 999; 
-  }
-  
-  .popup-content {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    max-width: 400px;
-    text-align: center;
-    border: 6px solid rgb(143, 52, 104);
-  }
-  
- 
-  input, textarea { 
-    margin: .8em auto;
-    font-family: inherit; 
-    text-transform: inherit; 
-    font-size: inherit;
-    
-    display: block; 
-    width: 280px; 
-    padding: .4em;
-  }
-  textarea { height: 80px; resize: none; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
 }
-  
-.formBtn { 
-    width: 140px;
-    display: inline-block;
-    
-    background: rgb(84, 26, 81);
-    color: #fff;
-    font-weight: 100;
-    font-size: 1.2em;
-    border: none;
-    height: 30px;
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 400px;
+  text-align: center;
+  border: 6px solid rgb(143, 52, 104);
+}
+
+input,
+textarea {
+  margin: 0.8em auto;
+  font-family: inherit;
+  text-transform: inherit;
+  font-size: inherit;
+
+  display: block;
+  width: 280px;
+  padding: 0.4em;
+}
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+.formBtn {
+  width: 140px;
+  display: inline-block;
+  border-radius: 5px;
+  background: rgb(84, 26, 81);
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.2em;
+  border: none;
+  height: 30px;
+}
+.close-button {
+  width: 100%;
+  display: inline-block;
+  border-radius: 5px;
+  background: rgb(157, 155, 157);
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.2em;
+  border: none;
+  height: 30px;
+  text-transform: uppercase;
+  font-family: Raleway;
+}
+/* Add responsive styles for the contact form */
+@media screen and (max-width: 600px) {
+  #popup {
+    width: 90%;
+    height: auto;
   }
-  .close-button {
+
+  .popup-content {
+    max-width: 90%;
+  }
+
+  .formBtn {
     width: 100%;
-    display: inline-block;
-    
-    background: rgb(157, 155, 157);
-    color: #fff;
-    font-weight: 100;
-    font-size: 1.2em;
-    border: none;
-    height: 30px;
-    text-transform: uppercase;
-    font-family: Raleway; 
   }
+
+  input,
+  textarea {
+    width: 100%;
+  }
+}
